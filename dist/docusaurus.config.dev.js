@@ -11,7 +11,7 @@ var darkCodeTheme = require('prism-react-renderer/themes/dracula');
 var config = {
   title: 'CommuneAI',
   tagline: 'Developer Documentation',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   // Set the production url of your site here
   url: 'https://docs.commune.ai',
   // Set the /<baseUrl>/ pathname under which your site is served
