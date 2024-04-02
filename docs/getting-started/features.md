@@ -9,7 +9,7 @@ The `module.py` file serves as an anchor, organizing future modules in what we c
 
 ## Subspace
 
-![Example](https://drive.google.com/uc?export=view&id=1ZqCK-rBKF2p8KFr5DvuFcJaPXdMcISlT)
+![Example](https://camo.githubusercontent.com/3b6bacbeeb90e27d62f7133b7cd1e1a7041f56ce1f6fcf004418f62bb9f1401c/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d315a71434b2d72424b463270384b46723544767546634a615058644d6349536c54)
 
 Subspace is a blockchain that Commune uses for several purposes:
 
