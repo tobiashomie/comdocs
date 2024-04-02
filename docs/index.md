@@ -24,7 +24,7 @@ import { GoCommandPalette } from "react-icons/go";
 import { FaPython } from "react-icons/fa";
 
 
-# Bittensor Developer Documentation
+# CommuneAI Developer Documentation
 
 
 :::tip See what's new
@@ -32,15 +32,12 @@ See [what's new in docs](./whats-new-in-docs.md).
 :::
 
 
-**Welcome!** Bittensor is a protocol for decentralized subnets. Subnets exist to produce decentralized intelligence. Each subnet is an incentive-based competitive market in action, to produce the best decentralized intelligence. For example, the [text prompting subnet](https://github.com/opentensor/prompting) incentivizes subnet miners who produce the best prompt completions in response to the prompts sent by the subnet validators in that subnet. 
+**Welcome!** 
+Commune is a protocol that aims to connect all developer tools into one network, fostering a more shareable, reusable, and open economy. It follows an inclusive design philosophy that is based on being maximally unopinionated. This means that developers can leverage Commune as a versatile set of tools alongside their existing projects and have the freedom to incorporate additional tools they find valuable.
 
-Subnets run on blockchain and constitute the core of the Bittensor ecosystem. **The rewards for subnet participants are in the form of TAO tokens.** 
+By embracing an unopinionated approach, Commune acknowledges the diverse needs and preferences of developers. It provides a flexible framework that allows developers to integrate specific tools seamlessly while avoiding imposing rigid structures or constraints. This adaptability enables developers to leverage Commune's capabilities in a manner that best aligns with their individual projects and workflows.
 
-:::tip looking for a non-technical introduction to Bittensor?
-See [Questions and Answers](./questions-and-answers.md).
-:::
-
-Bittensor provides all the open source tools, the codebase and the documentation, with step-by-step tutorials and guides, to enable you to participate in the Bittensor ecosystem. 
+The overarching goal of Commune is to create a collaborative ecosystem where developers can easily share, connect, and extend their tools, ultimately fostering innovation and efficiency within the development community. By providing a network that encourages openness and accessibility, Commune empowers developers to leverage the collective knowledge and resources of the community to enhance their own projects.
 
 ---
 
