@@ -127,7 +127,7 @@ const sidebars = {
       ],
     },
     "btcli",
-    "bt-api-ref",
+    "api-ref",
     "emissions",
     "root-network",
     // "reference/bittensor-api-ref",

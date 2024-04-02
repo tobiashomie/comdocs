@@ -147,7 +147,7 @@ Use the Bittensor CLI and Python API to develop and participate in the Bittensor
     <Card
     icon={FaPython}
     title='Python API'
-    link='bt-api-ref'
+    link='api-ref'
     body='A comprehensive Python API reference documentation for the open-sourced Bittensor API.' />
 </Cards>
 
