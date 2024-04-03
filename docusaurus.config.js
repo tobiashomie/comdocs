@@ -149,7 +149,7 @@ const config = {
 						© ${new Date().getFullYear()} <a href="https://communeai.org">Commune AI</a> • Open Community. <span>all rights reserved.</span>
 					</div>
 					<a href='https://communeai.org'>
-					<img src="img/com-logo.gif" alt="logo"/>
+					<img src="img/com-logo.gif" width=50px alt="logo"/>
 					</a>
 				`,
       },
