@@ -55,11 +55,31 @@ const sidebars = {
         "tutorials/ocr-subnet-tutorial",
       ],
     },
+    {
+      type: "category",
+      label: "Subspace",
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "subspace/staking",
+        "subspace/subnets",
+      ],
+    },
+    {
+      type: "category",
+      label: "Mining",
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "mining/miner",
+        "mining/register",
+        "mining/validator"
+      ],
+    },
 
     "btcli",
     "api-ref",
-    "emissions",
-    "root-network",
+    "module",
     // "reference/bittensor-api-ref",
     "yuma-consensus",
     "governance",
