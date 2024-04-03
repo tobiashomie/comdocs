@@ -27,11 +27,6 @@ import { FaPython } from "react-icons/fa";
 # CommuneAI Developer Documentation
 
 
-:::tip See what's new
-See [what's new in docs](./whats-new-in-docs.md).
-:::
-
-
 **Welcome!** 
 Commune is a protocol that aims to connect all developer tools into one network, fostering a more shareable, reusable, and open economy. It follows an inclusive design philosophy that is based on being maximally unopinionated. This means that developers can leverage Commune as a versatile set of tools alongside their existing projects and have the freedom to incorporate additional tools they find valuable.
 

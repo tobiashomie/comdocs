@@ -55,8 +55,7 @@ const sidebars = {
       ],
     },
 
-    "btcli",
-    "api-ref",
+    "cli",
     "module",
     // "reference/bittensor-api-ref",
 
