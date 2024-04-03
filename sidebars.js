@@ -23,17 +23,7 @@ const sidebars = {
     "index",
     "whats-new-in-docs",
     "questions-and-answers",
-    {
-      type: "category",
-      label: "Learn Bittensor Concepts",
-      collapsible: true,
-      collapsed: false,
-      items: [
-        "learn/introduction",
-        "learn/bittensor-building-blocks",
-        "learn/anatomy-of-incentive-mechanism",
-      ],
-    },
+
     {
       type: "category",
       label: "Get Started",
@@ -45,16 +35,6 @@ const sidebars = {
       ],
     },
 
-    {
-      type: "category",
-      label: "Subnet Tutorials",
-      collapsible: true,
-      collapsed: false,
-      items: [
-        "tutorials/basic-subnet-tutorials",
-        "tutorials/ocr-subnet-tutorial",
-      ],
-    },
     {
       type: "category",
       label: "Subspace",
@@ -81,10 +61,7 @@ const sidebars = {
     "api-ref",
     "module",
     // "reference/bittensor-api-ref",
-    "yuma-consensus",
-    "governance",
-    "senate",
-    "glossary",
+
   ],
 };
 
