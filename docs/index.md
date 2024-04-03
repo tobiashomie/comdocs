@@ -38,24 +38,19 @@ The overarching goal of Commune is to create a collaborative ecosystem where dev
 
 ## Start here
 
-If you are new to Bittensor, start by learning the concepts. Then install the Bittensor software and create a wallet. Follow the below links. 
+If you are new to Commune, start by learning the concepts. Then install the Commune software and create a wallet. Follow the below links. 
 
 <Cards>
-    <Card 
-    icon={HiAcademicCap}
-    title='Learn the concepts'
-    link='learn/introduction'
-    body='Start by learning the Bittensor concept, building blocks and incentive mechanism.' />
     <Card
     icon={MdInstallDesktop}
     title='Install'
     link='getting-started/installation'
-    body='To validate or mine, or run your own subnet, install Bittensor and create wallet to get started.' />
+    body='To validate or mine, or run your own subnet, install Commune and create wallet to get started.' />
     
 </Cards>
 
 :::tip How to participate
-A straightforward way to participate in the Bittensor network is to be a subnet miner or a subnet validator in an existing subnet. It is not necessary to create a subnet. Follow the below links in the [Validate or mine](#validate-or-mine) section. Alternately, if you want to create your own custom incentive mechanism, then you create your own subnet and launch your own competition. See the below [Running a subnet](#running-a-subnet) section.
+A straightforward way to participate in the Commune network is to be a subnet miner or a subnet validator in an existing subnet. It is not necessary to create a subnet. Follow the below links in the [Validate or mine](#validate-or-mine) section. Alternately, if you want to create your own custom incentive mechanism, then you create your own subnet and launch your own competition. See the below [Running a subnet](#running-a-subnet) section.
 :::
 
 ---
@@ -73,28 +68,13 @@ You can participate in an existing subnet as either a subnet validator or a subn
     <Card
     icon={GiArchiveRegister}
     title='2. Register, validate and mine'
-    link='subnets/register-validate-mine'
-    body='Follow these steps to register and become a miner, or stake your TAO and become a validator.' />
-    <Card
-    icon={BiMath}
-    title='3. Emissions'
-    link='emissions'
-    body='Learn how dividends for the validators and incentives for the miners are calculated.' />
+    link='mining/register'
+    body='Follow these steps to register and become a miner' />
     <Card
     icon={RiTeamLine}
     title='4. Staking and Delegation'
-    link='staking-and-delegation'
-    body='Get to know how staking and delegating your TAO works in the Bittensor network.' />
-    <Card
-    icon={RiGovernmentLine}
-    title='Governance'
-    link='governance'
-    body='Learn how the Bittensor governance works as it transitions into full community-ownership over time.' />
-    <Card
-    icon={FaGalacticSenate}
-    title='Senate'
-    link='senate'
-    body='Understand what Senate is, requirements to participate in a Senate and how voting works.' />
+    link='subspace/staking'
+    body='Get to know how staking and delegating works in the CommuneAI network.' />
     
 </Cards>
 
@@ -105,45 +85,25 @@ You can participate in an existing subnet as either a subnet validator or a subn
 Ready to run your own subnet? Follow the below links.
 
 <Cards>
-    <Card 
-    icon={HiAcademicCap}
-    title='Basic subnet tutorials'
-    link='tutorials/basic-subnet-tutorials'
-    body='Learn how to run a simple subnet locally or on testchain or mainchain.' />
     <Card
     icon={GiStarFormation}
     title='Create a subnet'
-    link='subnets/create-a-subnet'
+    link='subspace/subnets'
     body='Step-by-step instructions for creating a local subnet or a subnet on testchain or mainchain.' />
-    <Card
-    icon={HiOutlineAcademicCap}
-    title='OCR subnet tutorial'
-    link='tutorials/ocr-subnet-tutorial'
-    body='Shows how to convert your Python notebook containing validated code for an incentive mechanism into a working subnet.' />
-    <Card
-    icon={VscSymbolParameter}
-    title='Subnet hyperparameters'
-    link='subnets/subnet-hyperparameters'
-    body='Get to know subnet hyperparameters and how to use them effectively. As a subnet owner, your success depends on this knowledge.' />
 </Cards>
 
 ---
 
-## Bittensor CLI and API
+## Commune CLI
 
-Use the Bittensor CLI and Python API to develop and participate in the Bittensor network.
+Use the Commune CLI and Python API to develop and participate in the Commune network.
 
 <Cards>
     <Card 
     icon={GoCommandPalette}
-    title='Bittensor CLI'
-    link='btcli'
-    body='With Bittensor CLI, you can stake or unstake funds, check network state and much more.' />
-    <Card
-    icon={FaPython}
-    title='Python API'
-    link='api-ref'
-    body='A comprehensive Python API reference documentation for the open-sourced Bittensor API.' />
+    title='Commune CLI'
+    link='cli'
+    body='With Commune CLI, you can stake or unstake funds, check network state and much more.' />
 </Cards>
 
 
