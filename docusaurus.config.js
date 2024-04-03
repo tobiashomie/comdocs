@@ -54,7 +54,7 @@ const config = {
           rehypePlugins: [katex],
           sidebarPath: require.resolve("./sidebars.js"),
           sidebarCollapsible: true,
-          showLastUpdateTime: true,
+          showLastUpdateTime: false,
           docItemComponent: "@theme/DocItem",
           editUrl: "https://github.com/tobiashomie/comdocs/blob/main/",
         },
@@ -108,7 +108,7 @@ const config = {
         logo: {
           alt: "Commune AI",
           src: "img/com-logo.gif",
-          srcDark: "img/com-logo-dark.gif",
+          srcDark: "img/com-logo.gif",
           href: "https://communeai.org",
           style: {
             objectFit: "contain",
