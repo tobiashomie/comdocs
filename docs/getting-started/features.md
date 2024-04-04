@@ -67,6 +67,6 @@ c register my_module_path tag=1
 
 # Developement FAQ
 
-- Where can i find futher documentation? This repository folder, [Doc](https://github.com/commune-ai/commune/tree/main/docs).
+- Where can i find further documentation? This repository folder, [Doc](https://github.com/commune-ai/commune/tree/main/docs).
 - Can I install on Windows? Yes, [Guide](https://github.com/OmnipotentLabs/communeaisetup).
 - Can I contribute? Absolutely! We are open to all contributions. Please feel free to submit a pull request.
