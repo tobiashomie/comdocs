@@ -26,7 +26,7 @@ c register {module_path} name={module_name (OPTIONAL)}
 
 The module path is specified
 
-Yo, listen up! I'm about to drop some updated knowledge on how to create a dope module and register it on the blockchain. Here's the revised step-by-step guide:
+Here's the revised step-by-step guide on how to create a dope module and register it on the blockchain:
 
 1. **Create Your Module**: Start by creating your own module in Python. It can be anything you want - a model, a service, or some sick functionality. Make sure your module is ready to rock and roll.
 
