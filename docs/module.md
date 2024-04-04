@@ -113,4 +113,3 @@ c.print(function_schema)
 ---
 
 This concludes our tutorial on module management using the `commune` library. You've learned how to find modules, manage their functions, serve them, and interact with served modules. This library can greatly simplify the process of managing and deploying code modules in your projects.
-```
