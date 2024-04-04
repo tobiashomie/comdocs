@@ -13,18 +13,18 @@ const katex = require("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Bittensor",
+  title: "Commune AI",
   tagline: "Developer Documentation",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
   // Set the production url of your site here
-  url: "https://docs.bittensor.com",
+  url: "https://docs.communeai.org",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "opentensor", // Usually your GitHub org/user name.
-  projectName: "developer-docs", // Usually your repo name.
+  organizationName: "tobiashomie", // Usually your GitHub org/user name.
+  projectName: "comdocs", // Usually your repo name.
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   // Even if you don't use internalization, you can use this field to set useful
@@ -34,7 +34,7 @@ const config = {
   customFields: {
     enableIssueLinks: true, // Set to true to enable issue links
     enableEditUrlLinks: true, // Set to true to enable edit url links
-    issueBaseUrl: "https://github.com/opentensor/developer-docs/issues",
+    issueBaseUrl: "https://github.com/tobiashomie/comdocs/issues",
     enableFeedback: false, // Set to false to disable feedback
   },
 
@@ -54,9 +54,9 @@ const config = {
           rehypePlugins: [katex],
           sidebarPath: require.resolve("./sidebars.js"),
           sidebarCollapsible: true,
-          showLastUpdateTime: true,
+          showLastUpdateTime: false,
           docItemComponent: "@theme/DocItem",
-          editUrl: "https://github.com/opentensor/developer-docs/blob/main/",
+          editUrl: "https://github.com/tobiashomie/comdocs/blob/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -69,36 +69,7 @@ const config = {
     [
       "@docusaurus/plugin-client-redirects",
       {
-        redirects: [
-          {
-            to: "/btcli",
-            from: "/reference/btcli",
-          },
-          {
-            to: "/subnets/checklist-for-validating-mining",
-            from: "/subnets/checklist-for-subnet",
-          },
-          {
-            to: "/subnets/register-validate-mine",
-            from: "/subnets/register-and-participate",
-          },
-          {
-            to: "/staking-and-delegation/delegation",
-            from: "/delegation",
-          },
-          {
-            to: "/staking-and-delegation/staking-polkadot-js",
-            from: "/staking/staking-polkadot-js",
-          },
-          {
-            to: "/staking-and-delegation",
-            from: "/staking",
-          },
-          {
-            to: "/subnets/walkthrough-prompting",
-            from: "/subnets/code-walkthrough-text-prompting",
-          },
-        ],
+        redirects: []
       },
     ],
   ],
@@ -135,33 +106,24 @@ const config = {
 
       navbar: {
         logo: {
-          alt: "Bittensor",
-          src: "img/bt-docs-logo.svg",
-          srcDark: "img/logo-dark-mode.svg",
-          href: "https://bittensor.com",
+          alt: "Commune AI",
+          src: "img/com-logo.gif",
+          srcDark: "img/com-logo.gif",
+          href: "https://communeai.org",
           style: {
             objectFit: "contain",
             width: 16.5,
           },
         },
         items: [
-          {
-            position: "left",
-            label: "Bittensor API",
-            to: "bt-api-ref",
-          },
-          {
-            position: "left",
-            label: "Subnet Pages",
-            to: "subnet-pages",
-          },
+   
           {
             type: "search",
             position: "left",
             className: "custom_algolia",
           },
           {
-            href: "https://github.com/opentensor/developer-docs",
+            href: "https://github.com/tobiashomie/comdocs/",
             label: "Docs GitHub",
             position: "right",
           },
@@ -184,10 +146,10 @@ const config = {
       footer: {
         copyright: `
 					<div className="copyRight">
-						© ${new Date().getFullYear()} <a href="https://bittensor.com">Bittensor</a> • Opentensor Foundation. <span>all rights reserved.</span>
+						© ${new Date().getFullYear()} <a href="https://communeai.org">Commune AI</a> • Open Community. <span>all rights reserved.</span>
 					</div>
-					<a href='https://bittensor.com/'>
-					<img src="img/logo-dark-mode.svg" alt="logo"/>
+					<a href='https://communeai.org'>
+					<img src="img/com-logo.gif" width=50px alt="logo"/>
 					</a>
 				`,
       },

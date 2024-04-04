@@ -3,7 +3,7 @@ name: Docs Issue
 about: Use these guidelines to create an Issue
 title: Docs Bug or Enhancement or Suggestion (Edit this before submitting)
 labels: 'Docs'
-assignees: rajkaramchedu
+assignees: ''
 
 ---
 
