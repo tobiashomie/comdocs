@@ -54,7 +54,7 @@ const config = {
           rehypePlugins: [katex],
           sidebarPath: require.resolve("./sidebars.js"),
           sidebarCollapsible: true,
-          showLastUpdateTime: true,
+          showLastUpdateTime: false,
           docItemComponent: "@theme/DocItem",
           editUrl: "https://github.com/tobiashomie/comdocs/blob/main/",
         },
@@ -69,36 +69,7 @@ const config = {
     [
       "@docusaurus/plugin-client-redirects",
       {
-        redirects: [
-          {
-            to: "/btcli",
-            from: "/reference/btcli",
-          },
-          {
-            to: "/subnets/checklist-for-validating-mining",
-            from: "/subnets/checklist-for-subnet",
-          },
-          {
-            to: "/subnets/register-validate-mine",
-            from: "/subnets/register-and-participate",
-          },
-          {
-            to: "/staking-and-delegation/delegation",
-            from: "/delegation",
-          },
-          {
-            to: "/staking-and-delegation/staking-polkadot-js",
-            from: "/staking/staking-polkadot-js",
-          },
-          {
-            to: "/staking-and-delegation",
-            from: "/staking",
-          },
-          {
-            to: "/subnets/walkthrough-prompting",
-            from: "/subnets/code-walkthrough-text-prompting",
-          },
-        ],
+        redirects: []
       },
     ],
   ],
@@ -137,7 +108,7 @@ const config = {
         logo: {
           alt: "Commune AI",
           src: "img/com-logo.gif",
-          srcDark: "img/com-logo-dark.gif",
+          srcDark: "img/com-logo.gif",
           href: "https://communeai.org",
           style: {
             objectFit: "contain",
@@ -145,16 +116,7 @@ const config = {
           },
         },
         items: [
-          {
-            position: "left",
-            label: "Commune API",
-            to: "api-ref",
-          },
-          {
-            position: "left",
-            label: "Subnet Pages",
-            to: "subnet-pages",
-          },
+   
           {
             type: "search",
             position: "left",
@@ -187,7 +149,7 @@ const config = {
 						© ${new Date().getFullYear()} <a href="https://communeai.org">Commune AI</a> • Open Community. <span>all rights reserved.</span>
 					</div>
 					<a href='https://communeai.org'>
-					<img src="img/com-logo.gif" alt="logo"/>
+					<img src="img/com-logo.gif" width=50px alt="logo"/>
 					</a>
 				`,
       },

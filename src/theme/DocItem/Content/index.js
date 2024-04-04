@@ -106,9 +106,9 @@ function MetaActions({ style }) {
       )}
 
       {/* Last updated */}
-      <span className={styles.lastEdit}>
+      {/* <span className={styles.lastEdit}>
         last edit: {formattedLastUpdatedAt}
-      </span>
+      </span> */}
     </div>
   );
 }
