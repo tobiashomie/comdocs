@@ -124,74 +124,34 @@
 
 
 @font-face {
-	font-family: "Haffer";
-	src: url(../../static/fonts/Haffer-Light.ttf);
+	font-family: "IBMPlexMono";
+	src: url(../../static/fonts/IBMPlexMono-Light.ttf);
 	font-weight: 200;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Haffer";
-	src: url(../../static/fonts/Haffer-Medium.ttf);
+	font-family: "IBMPlexMono";
+	src: url(../../static/fonts/IBM-Plex-Sans-400.woff2);
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Haffer";
-	src: url(../../static/fonts/Haffer-Regular.ttf);
+	font-family: "IBMPlexMono";
+	src: url(../../static/fonts/IBM-Plex-Mono-Regular.woff2);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Haffer";
-	src: url(../../static/fonts/Haffer-SemiBold.ttf);
+	font-family: "IBMPlexMono";
+	src: url(../../static/fonts/IBMPlexMono-SemiBold.ttf);
 	font-weight: bold;
 	font-style: normal;
 }
 
-@font-face {
-	font-family: "HafferSQ";
-	src: url(../../static/fonts/HafferSQ-Light.ttf);
-	font-weight: 200;
-	font-style: normal;
-}
 
-@font-face {
-	font-family: "HafferSQ";
-	src: url(../../static/fonts/HafferSQ-Medium.ttf);
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "HafferSQ";
-	src: url(../../static/fonts/HafferSQ-Regular.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "HafferSQ";
-	src: url(../../static/fonts/HafferSQ-SemiBold.ttf);
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "TTCommonsPro";
-	src: url(../../static/fonts/TTCommonsProMonoMedium.ttf);
-	font-weight: 200;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "TTCommonsPro";
-	src: url(../../static/fonts/TTCommonsProMonoRegular.ttf);
-	font-weight: 100;
-	font-style: normal;
-}
 
 @font-face {
 	font-family: "FiraCode";
@@ -199,21 +159,21 @@
 }
 
 @font-face {
-	font-family: "DM Mono";
-	src: url(../../static/fonts/DMMono-Regular.ttf);
+	font-family: "IBMPlexMono";
+	src: url(../../static/fonts/IBM-Plex-Mono-Regular.woff2);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "DM Mono";
-	src: url(../../static/fonts/DMMono-Medium.ttf);
+	font-family: "IBMPlexMono";
+	src: url(../../static/fonts/IBM-Plex-Sans-500.woff2);
 	font-weight: 500;
 	font-style: normal;
 }
 
 body {
-	font-family: "Haffer";
+	font-family: "IBMPlexMono";
 	font-size: 16px;
 	font-weight: 200;
 	letter-spacing: 0%;
@@ -221,7 +181,7 @@ body {
 }
 
 .h1 {
-	font-family: "Haffer";
+	font-family: "IBMPlexMono";
 	font-size: 32px;
 	font-weight: 400;
 	letter-spacing: calc(-0.01 * 20px);
@@ -229,7 +189,7 @@ body {
 }
 
 .h2 {
-	font-family: "Haffer";
+	font-family: "IBMPlexSans";
 	font-size: 24px;
 	font-weight: 400;
 	letter-spacing: calc(-0.01 * 20px);
@@ -237,7 +197,7 @@ body {
 }
 
 .h3 {
-	font-family: "Haffer";
+	font-family: "IBMPlexSans";
 	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: 0%;
@@ -245,7 +205,7 @@ body {
 }
 
 .h4 {
-	font-family: "Haffer";
+	font-family: "IBMPlexSans";
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 0%;
@@ -343,7 +303,7 @@ p {
 .navbar__link {
 	font-size: 12px;
 	font-weight: 500;
-	font-family: 'DM Mono', monospace;
+	font-family: 'IBMPLEX', monospace;
 	color: var(--text-secondary);
 	letter-spacing: 0.6px;
 }
@@ -384,7 +344,7 @@ p {
 
 
 ul {
-	font-family: "Haffer";
+	font-family: "IBMPlexMono";
 	font-weight: 200;
 	text-transform: none;
 }
@@ -395,7 +355,7 @@ ul {
 
 .sidebar-title {
 	font-size: 1rem;
-	font-family: "Haffer";
+	font-family: "IBMPlexMono";
 	font-weight: 500;
 	letter-spacing: 0.05em;
 	margin: 0.7rem;
@@ -413,7 +373,7 @@ ul {
 
 /* NAVBAR LINKS */
 .navbar__item.navbar__link {
-	font-family: 'DM Mono', monospace;
+	font-family: 'IBMPLEX', monospace;
 	color: var(--text-secondary);
 	font-size: 12px !important;
 	align-items: center;
@@ -436,7 +396,7 @@ ul {
 	font-size: 16px !important;
 	line-height: 27.2px !important;
 	font-weight: 400 !important;
-	font-family: "Haffer";
+	font-family: "IBMPlexMono";
 	letter-spacing: 0.32px;
 }
 
@@ -450,7 +410,7 @@ ul {
 .breadcrumbs__item.breadcrumbs__item--active .breadcrumbs__link {
 	background: initial !important;
 	color: var(--text-primary);
-	font-family: 'DM Mono', monospace;
+	font-family: "IBMPlexMono", monospace;
 }
 
 /* Footer */
@@ -560,7 +520,7 @@ ul {
 	border-radius: 0 !important;
 	color: var(--ifm-navbar-item-color);
 	font-size: 12px !important;
-	font-family: 'DM Mono', monospace;
+	font-family: "IBMPlexMono", monospace;
 	letter-spacing: 0.6px !important;
 }
 
@@ -628,7 +588,7 @@ ul {
 /* right bar style */
 .table-of-contents__link {
 	color: #5F6368;
-	font-family: 'DM Mono', monospace;
+	font-family: "IBMPlexMono", monospace;
 	font-size: 0.75rem;
 	line-height: 130%;
 	letter-spacing: 0.6px;
@@ -733,7 +693,7 @@ ul {
 	margin: 0 !important;
 	cursor: pointer;
 	color: var(--text-secondary, #5F6368);
-	font-family: 'DM Mono', monospace;
+	font-family: "IBMPlexMono", monospace;
 	font-size: 12px;
 	letter-spacing: 0.6px;
 	text-transform: uppercase; 
@@ -889,7 +849,7 @@ ul {
 	font-weight: 400 !important;
 	text-transform: uppercase;
 	font-size: 0.7rem;
-	font-family: 'DM Mono', monospace;
+	font-family: "IBMPlexMono", monospace;
 	letter-spacing:0.6;
 }
 
@@ -1058,7 +1018,7 @@ ul {
 	position: relative;
 	border-left-width: 3px !important;
 	border-radius: 0 !important;
-	font-family: Haffer !important;
+	font-family: IBMPLEX !important;
 	box-shadow: 0 !important;
 }
 
@@ -1213,7 +1173,7 @@ hr {
 ol:not([class]) li {
 	font-size: 16px !important;
 	font-weight: 400 !important;
-	font-family: "Haffer";
+	font-family: "IBMPlexMono";
 }
 
 ul.dashed_ul {

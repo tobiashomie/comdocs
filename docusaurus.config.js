@@ -4,7 +4,7 @@
 // const lightCodeTheme = require("prism-react-renderer/themes/github");
 // const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const { themes } = require("prism-react-renderer");
-const lightTheme = themes.github;
+const lightTheme = themes.vsLight;
 const darkTheme = themes.dracula;
 
 // KaTex stuff
