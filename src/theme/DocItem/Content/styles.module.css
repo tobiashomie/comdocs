@@ -28,6 +28,7 @@
 	line-height: 90%;
 	letter-spacing: -3.84px;
 	position: relative;
+	color: purple;
 }
 @media screen and (max-width: 550px) {
 	.topLevelDoc > h1 {

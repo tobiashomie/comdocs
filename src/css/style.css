@@ -46,7 +46,7 @@
 	--ifm-table-of-contents-text: #a5abaf;
 	--ifm-table-of-contents-text-active: white;
 	--ifm-breadcrumbs__item--active: rgba(248, 249, 250, 1);
-	--ifm-menu__link--active: #5f6368;
+	--ifm-menu__link--active: white;
 	--ifm-dropdown-background-color: #242526 !important;
 	--ifm-footer-bg: #0E1013;
 	--ifm-footer-company-name-color: white;
@@ -93,7 +93,7 @@
 	--ifm-table-of-contents-text: #5F6368;
 	--ifm-table-of-contents-text-active: #0E1013;
 	--ifm-breadcrumbs__item--active: rgba(14, 16, 19, 1);
-	--ifm-menu__link--active: rgb(111, 112, 114);
+	--ifm-menu__link--active: purple;
 	--ifm-footer-bg: #0E1013;
 	--ifm-footer-company-name-color: white;
 	--ifm-algolia-bg: white;
@@ -222,21 +222,25 @@ a {
 h1 {
 	font-weight: 400 !important;
 	font-size: 32px !important;
+	color:#9932CC;
 }
 
 h1.anchor {
 	font-weight: 400 !important;
 	font-size: 32px !important;
+	color:#800080;
 }
 
 h2 {
 	font-weight: 400 !important;
 	font-size: 24px !important;
+	
 }
 
 h2.anchor {
 	font-weight: 400 !important;
 	font-size: 24px !important;
+
 }
 
 h3 {
@@ -517,20 +521,24 @@ ul {
 
 .menu__link {
 	border-radius: 0 !important;
-	color: var(--ifm-navbar-item-color);
+	color: purple;
 	font-size: 12px !important;
 	font-family: "Geist", monospace;
 	letter-spacing: 0.6px !important;
 }
 
 [data-theme="dark"] .menu__link:hover {
-	color:var(--ifm-table-of-contents-text-active);
+	color: white;
+	background-color: transparent;
+}
+[data-theme="dark"] .menu__link {
+	color: var(--ifm-table-of-contents-text-active);
 	background-color: transparent;
 }
 
 [data-theme="dark"] .menu__list-item-collapsible {
 	background-color: transparent !important;
-	color:var(--ifm-table-of-contents-text-active) !important;
+	color:white !important;
 }
 
 .menu__link--active {
