@@ -107,7 +107,7 @@ const config = {
       navbar: {
         logo: {
           alt: "Commune AI",
-          src: "img/com-logo.gif",
+          src: "img/commune-logo.svg",
           srcDark: "img/com-logo.gif",
           href: "https://communeai.org",
           style: {
@@ -149,7 +149,7 @@ const config = {
 						© ${new Date().getFullYear()} <a href="https://communeai.org">Commune AI</a> • Open Community. <span>all rights reserved.</span>
 					</div>
 					<a href='https://communeai.org'>
-					<img src="/img/com-logo.gif" width=50px alt="logo"/>
+					<img src="/img/commune-logo.svg" width=50px alt="logo"/>
 					</a>
 				`,
       },
