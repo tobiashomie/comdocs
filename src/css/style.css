@@ -124,29 +124,29 @@
 
 
 @font-face {
-	font-family: "IBMPlexMono";
-	src: url(../../static/fonts/IBMPlexMono-Light.ttf);
+	font-family: "Nunito";
+	src: url(../../static/fonts/Nunito-Light.ttf);
 	font-weight: 200;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "IBMPlexMono";
+	font-family: "Nunito";
 	src: url(../../static/fonts/IBM-Plex-Sans-400.woff2);
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "IBMPlexMono";
-	src: url(../../static/fonts/IBM-Plex-Mono-Regular.woff2);
+	font-family: "Nunito";
+	src: url(../../static/fonts/Nunito-Regular.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "IBMPlexMono";
-	src: url(../../static/fonts/IBMPlexMono-SemiBold.ttf);
+	font-family: "Nunito";
+	src: url(../../static/fonts/Nunito-SemiBold.ttf);
 	font-weight: bold;
 	font-style: normal;
 }
@@ -159,21 +159,21 @@
 }
 
 @font-face {
-	font-family: "IBMPlexMono";
-	src: url(../../static/fonts/IBM-Plex-Mono-Regular.woff2);
+	font-family: "Nunito";
+	src: url(../../static/fonts/Nunito-Regular.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "IBMPlexMono";
+	font-family: "Nunito";
 	src: url(../../static/fonts/IBM-Plex-Sans-500.woff2);
 	font-weight: 500;
 	font-style: normal;
 }
 
 body {
-	font-family: "IBMPlexMono";
+	font-family: "Nunito";
 	font-size: 16px;
 	font-weight: 200;
 	letter-spacing: 0%;
@@ -181,7 +181,7 @@ body {
 }
 
 .h1 {
-	font-family: "IBMPlexMono";
+	font-family: "Nunito";
 	font-size: 32px;
 	font-weight: 400;
 	letter-spacing: calc(-0.01 * 20px);
@@ -303,7 +303,7 @@ p {
 .navbar__link {
 	font-size: 12px;
 	font-weight: 500;
-	font-family: 'IBMPLEX', monospace;
+	font-family: 'Nunito', monospace;
 	color: var(--text-secondary);
 	letter-spacing: 0.6px;
 }
@@ -344,7 +344,7 @@ p {
 
 
 ul {
-	font-family: "IBMPlexMono";
+	font-family: "Nunito";
 	font-weight: 200;
 	text-transform: none;
 }
@@ -355,7 +355,7 @@ ul {
 
 .sidebar-title {
 	font-size: 1rem;
-	font-family: "IBMPlexMono";
+	font-family: "Nunito";
 	font-weight: 500;
 	letter-spacing: 0.05em;
 	margin: 0.7rem;
@@ -373,7 +373,7 @@ ul {
 
 /* NAVBAR LINKS */
 .navbar__item.navbar__link {
-	font-family: 'IBMPLEX', monospace;
+	font-family: 'Nunito', monospace;
 	color: var(--text-secondary);
 	font-size: 12px !important;
 	align-items: center;
@@ -396,7 +396,7 @@ ul {
 	font-size: 16px !important;
 	line-height: 27.2px !important;
 	font-weight: 400 !important;
-	font-family: "IBMPlexMono";
+	font-family: "Nunito";
 	letter-spacing: 0.32px;
 }
 
@@ -410,7 +410,7 @@ ul {
 .breadcrumbs__item.breadcrumbs__item--active .breadcrumbs__link {
 	background: initial !important;
 	color: var(--text-primary);
-	font-family: "IBMPlexMono", monospace;
+	font-family: "Nunito", monospace;
 }
 
 /* Footer */
@@ -520,7 +520,7 @@ ul {
 	border-radius: 0 !important;
 	color: var(--ifm-navbar-item-color);
 	font-size: 12px !important;
-	font-family: "IBMPlexMono", monospace;
+	font-family: "Nunito", monospace;
 	letter-spacing: 0.6px !important;
 }
 
@@ -588,7 +588,7 @@ ul {
 /* right bar style */
 .table-of-contents__link {
 	color: #5F6368;
-	font-family: "IBMPlexMono", monospace;
+	font-family: "Nunito", monospace;
 	font-size: 0.75rem;
 	line-height: 130%;
 	letter-spacing: 0.6px;
@@ -693,7 +693,7 @@ ul {
 	margin: 0 !important;
 	cursor: pointer;
 	color: var(--text-secondary, #5F6368);
-	font-family: "IBMPlexMono", monospace;
+	font-family: "Nunito", monospace;
 	font-size: 12px;
 	letter-spacing: 0.6px;
 	text-transform: uppercase; 
@@ -849,7 +849,7 @@ ul {
 	font-weight: 400 !important;
 	text-transform: uppercase;
 	font-size: 0.7rem;
-	font-family: "IBMPlexMono", monospace;
+	font-family: "Nunito", monospace;
 	letter-spacing:0.6;
 }
 
@@ -1173,7 +1173,7 @@ hr {
 ol:not([class]) li {
 	font-size: 16px !important;
 	font-weight: 400 !important;
-	font-family: "IBMPlexMono";
+	font-family: "Nunito";
 }
 
 ul.dashed_ul {
