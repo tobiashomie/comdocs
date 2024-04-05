@@ -44,7 +44,6 @@ Please make sure you specify a unique tag, as it will not go through if someone 
 To update a module, you can use the following command. At the moment you can update the module's name and address. Please not if you update the name, you will need to restart the server with the new name. This is currently something we want to avoid in the future by having to rename the server without killing it 
 
 ```
-
 c update_module model.openai name=model.openai::fam1 address=124.545.545:8080
 ```
 
@@ -60,7 +59,6 @@ c s loop interval=60
 Result
 ```bash
 {'success': True, 'msg': 'Launched subspace::loop', 'timestamp': 1702854431}
-
 ```
 
 

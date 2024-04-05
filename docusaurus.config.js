@@ -136,8 +136,8 @@ const config = {
         additionalLanguages: ["bash", "python", "diff", "json"],
       },
       algolia: {
-        appId: "B07G29NY9F",
-        apiKey: "d23c920e8a9bdae899572be3c8494696",
+        appId: "9GDT03N6QI",
+        apiKey: "c8b2fa17d5fad15f544f40a9e29f7f74",
         indexName: "new--alpha",
         contextualSearch: true,
         insights: true,
