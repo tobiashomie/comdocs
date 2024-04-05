@@ -459,7 +459,7 @@ ul {
 .theme-doc-sidebar-menu.menu__list > li::after {
 	content: '';
 	background-position: 0 0;
-	background-image: linear-gradient(to right, var(--grey-900), 1.5px, transparent 1.5px);
+
 	background-repeat: repeat-x;
 	background-size: 6px;
 	display: block;
@@ -476,7 +476,6 @@ ul {
 .menu__list-item-collapsible::after {
 	content: '';
 	background-position: 0 0;
-	background-image: linear-gradient(to right, var(--grey-900), 1.5px, transparent 1.5px);
 	background-repeat: repeat-x;
 	background-size: 6px;
 	display: block;
@@ -706,7 +705,7 @@ ul {
 .dropdown__menu > li:not(:last-child)::after {
 	content: '';
 	background-position: 0 0;
-	background-image: linear-gradient(to right, var(--grey-900), 1.5px, transparent 1.5px);
+	background-color: var(--grey-900);
 	background-repeat: repeat-x;
 	background-size: 6px;
 	display: block;
