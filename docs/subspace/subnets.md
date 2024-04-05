@@ -42,7 +42,6 @@ class MyVali(Vali):
             return 1
         else:
             return 0
-
 ```
 
 ## Subnet Parameters
@@ -125,7 +124,6 @@ max_stake
     'name': 'subspace',
     'max_stake': 1000000000000000
 }
-
 ```
 
 

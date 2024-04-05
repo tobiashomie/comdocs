@@ -75,7 +75,7 @@ You can participate in an existing subnet as either a subnet validator or a subn
     body='Follow these steps to register and become a miner' />
     <Card
     icon={RiTeamLine}
-    title='4. Staking and Delegation'
+    title='3. Staking and Delegation'
     link='subspace/staking'
     body='Get to know how staking and delegating works in the CommuneAI network.' />
     

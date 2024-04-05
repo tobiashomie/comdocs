@@ -4,7 +4,7 @@
 // const lightCodeTheme = require("prism-react-renderer/themes/github");
 // const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const { themes } = require("prism-react-renderer");
-const lightTheme = themes.github;
+const lightTheme = themes.shadesOfPurple;
 const darkTheme = themes.dracula;
 
 // KaTex stuff
@@ -136,8 +136,8 @@ const config = {
         additionalLanguages: ["bash", "python", "diff", "json"],
       },
       algolia: {
-        appId: "B07G29NY9F",
-        apiKey: "d23c920e8a9bdae899572be3c8494696",
+        appId: "9GDT03N6QI",
+        apiKey: "c8b2fa17d5fad15f544f40a9e29f7f74",
         indexName: "new--alpha",
         contextualSearch: true,
         insights: true,
@@ -149,7 +149,7 @@ const config = {
 						© ${new Date().getFullYear()} <a href="https://communeai.org">Commune AI</a> • Open Community. <span>all rights reserved.</span>
 					</div>
 					<a href='https://communeai.org'>
-					<img src="img/com-logo.gif" width=50px alt="logo"/>
+					<img src="/img/com-logo.gif" width=50px alt="logo"/>
 					</a>
 				`,
       },

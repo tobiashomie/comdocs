@@ -1,72 +1,21 @@
-/* CSS customized by Raj Karamchedu on 29 January 2024 */
-
 @font-face {
-	font-family: "Haffer";
-	src: url(./fonts/Haffer-Light.ttf);
+	font-family: "Geist";
+	src: url(./fonts/Geist-Light.ttf);
 	font-weight: 200;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Haffer";
-	src: url(./fonts/Haffer-Medium.ttf);
+	font-family: "Geist";
+	src: url(./fonts/Geist-Regular.ttf);
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Haffer";
-	src: url(./fonts/Haffer-Regular.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Haffer";
-	src: url(./fonts/Haffer-SemiBold.ttf);
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "HafferSQ";
-	src: url(./fonts/HafferSQ-Light.ttf);
-	font-weight: 200;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "HafferSQ";
-	src: url(./fonts/HafferSQ-Medium.ttf);
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "HafferSQ";
-	src: url(./fonts/HafferSQ-Regular.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "HafferSQ";
-	src: url(./fonts/HafferSQ-SemiBold.ttf);
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "TTCommonsPro";
-	src: url(./fonts/TTCommonsProMonoMedium.ttf);
-	font-weight: 200;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "TTCommonsPro";
-	src: url(./fonts/TTCommonsProMonoRegular.ttf);
-	font-weight: 100;
+	font-family: "Geist";
+	src: url(./fonts/Geist-SemiBold.ttf);
+	font-weight: 600;
 	font-style: normal;
 }
 
@@ -76,17 +25,28 @@
 }
 
 
+@font-face {
+	font-family: "IBMPlexSans";
+	src: url(./fonts/IBMPlexSans-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "IBMPlexSans";
+	src: url(./fonts/IBMPlexSans-SemiBold.ttf);
+	font-weight: 600;
+	font-style: normal;
+}
 
 html {
-    --pst-font-family-base-system: 'Haffer', -apple-system, BlinkMacSystemFont, Segoe UI, "Helvetica Neue", Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    --pst-font-family-monospace-system: "TTCommonsPro", Menlo, Consolas, Monaco,
-    Liberation Mono, Lucida Console, monospace;
+    --pst-font-family-base-system: 'Geist', -apple-system, BlinkMacSystemFont, Segoe UI, "Helvetica Neue", Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --pst-font-family-monospace-system: "Geist", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     --pst-sidebar-font-size: 1.0rem;
     --pst-font-family-base: var(--pst-font-family-base-system);
     --pst-font-family-heading: var(--pst-font-family-base-system);
     --pst-font-family-monospace: var(--pst-font-family-monospace-system);
     --pst-color-inline-code-links: #0c0c0c;
-    
 }
 
 html[data-theme=dark]{

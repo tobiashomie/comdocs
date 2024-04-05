@@ -26,7 +26,7 @@ c register {module_path} name={module_name (OPTIONAL)}
 
 The module path is specified
 
-Yo, listen up! I'm about to drop some updated knowledge on how to create a dope module and register it on the blockchain. Here's the revised step-by-step guide:
+Here's the revised step-by-step guide on how to create a dope module and register it on the blockchain:
 
 1. **Create Your Module**: Start by creating your own module in Python. It can be anything you want - a model, a service, or some sick functionality. Make sure your module is ready to rock and roll.
 
@@ -67,6 +67,6 @@ c register my_module_path tag=1
 
 # Developement FAQ
 
-- Where can i find futher documentation? This repository folder, [Doc](https://github.com/commune-ai/commune/tree/main/docs).
+- Where can i find further documentation? This repository folder, [Doc](https://github.com/commune-ai/commune/tree/main/docs).
 - Can I install on Windows? Yes, [Guide](https://github.com/OmnipotentLabs/communeaisetup).
 - Can I contribute? Absolutely! We are open to all contributions. Please feel free to submit a pull request.

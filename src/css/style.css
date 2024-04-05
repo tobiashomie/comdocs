@@ -46,7 +46,7 @@
 	--ifm-table-of-contents-text: #a5abaf;
 	--ifm-table-of-contents-text-active: white;
 	--ifm-breadcrumbs__item--active: rgba(248, 249, 250, 1);
-	--ifm-menu__link--active: #5f6368;
+	--ifm-menu__link--active: white;
 	--ifm-dropdown-background-color: #242526 !important;
 	--ifm-footer-bg: #0E1013;
 	--ifm-footer-company-name-color: white;
@@ -93,7 +93,7 @@
 	--ifm-table-of-contents-text: #5F6368;
 	--ifm-table-of-contents-text-active: #0E1013;
 	--ifm-breadcrumbs__item--active: rgba(14, 16, 19, 1);
-	--ifm-menu__link--active: rgb(111, 112, 114);
+	--ifm-menu__link--active: purple;
 	--ifm-footer-bg: #0E1013;
 	--ifm-footer-company-name-color: white;
 	--ifm-algolia-bg: white;
@@ -124,74 +124,34 @@
 
 
 @font-face {
-	font-family: "Haffer";
-	src: url(../../static/fonts/Haffer-Light.ttf);
+	font-family: "Geist";
+	src: url(../../static/fonts/Geist-Light.ttf);
 	font-weight: 200;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Haffer";
-	src: url(../../static/fonts/Haffer-Medium.ttf);
+	font-family: "Geist";
+	src: url(../../static/fonts/IBM-Plex-Sans-400.woff2);
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Haffer";
-	src: url(../../static/fonts/Haffer-Regular.ttf);
+	font-family: "Geist";
+	src: url(../../static/fonts/Geist-Regular.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Haffer";
-	src: url(../../static/fonts/Haffer-SemiBold.ttf);
+	font-family: "Geist";
+	src: url(../../static/fonts/Geist-SemiBold.ttf);
 	font-weight: bold;
 	font-style: normal;
 }
 
-@font-face {
-	font-family: "HafferSQ";
-	src: url(../../static/fonts/HafferSQ-Light.ttf);
-	font-weight: 200;
-	font-style: normal;
-}
 
-@font-face {
-	font-family: "HafferSQ";
-	src: url(../../static/fonts/HafferSQ-Medium.ttf);
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "HafferSQ";
-	src: url(../../static/fonts/HafferSQ-Regular.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "HafferSQ";
-	src: url(../../static/fonts/HafferSQ-SemiBold.ttf);
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "TTCommonsPro";
-	src: url(../../static/fonts/TTCommonsProMonoMedium.ttf);
-	font-weight: 200;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "TTCommonsPro";
-	src: url(../../static/fonts/TTCommonsProMonoRegular.ttf);
-	font-weight: 100;
-	font-style: normal;
-}
 
 @font-face {
 	font-family: "FiraCode";
@@ -199,21 +159,21 @@
 }
 
 @font-face {
-	font-family: "DM Mono";
-	src: url(../../static/fonts/DMMono-Regular.ttf);
+	font-family: "Geist";
+	src: url(../../static/fonts/Geist-Regular.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "DM Mono";
-	src: url(../../static/fonts/DMMono-Medium.ttf);
+	font-family: "Geist";
+	src: url(../../static/fonts/IBM-Plex-Sans-500.woff2);
 	font-weight: 500;
 	font-style: normal;
 }
 
 body {
-	font-family: "Haffer";
+	font-family: "Geist";
 	font-size: 16px;
 	font-weight: 200;
 	letter-spacing: 0%;
@@ -221,7 +181,7 @@ body {
 }
 
 .h1 {
-	font-family: "Haffer";
+	font-family: "Geist";
 	font-size: 32px;
 	font-weight: 400;
 	letter-spacing: calc(-0.01 * 20px);
@@ -229,7 +189,7 @@ body {
 }
 
 .h2 {
-	font-family: "Haffer";
+	font-family: "IBMPlexSans";
 	font-size: 24px;
 	font-weight: 400;
 	letter-spacing: calc(-0.01 * 20px);
@@ -237,7 +197,7 @@ body {
 }
 
 .h3 {
-	font-family: "Haffer";
+	font-family: "IBMPlexSans";
 	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: 0%;
@@ -245,7 +205,7 @@ body {
 }
 
 .h4 {
-	font-family: "Haffer";
+	font-family: "IBMPlexSans";
 	font-size: 16px;
 	font-weight: bold;
 	letter-spacing: 0%;
@@ -262,21 +222,25 @@ a {
 h1 {
 	font-weight: 400 !important;
 	font-size: 32px !important;
+	color:#9932CC;
 }
 
 h1.anchor {
 	font-weight: 400 !important;
 	font-size: 32px !important;
+	color:#800080;
 }
 
 h2 {
 	font-weight: 400 !important;
 	font-size: 24px !important;
+	
 }
 
 h2.anchor {
 	font-weight: 400 !important;
 	font-size: 24px !important;
+
 }
 
 h3 {
@@ -343,7 +307,7 @@ p {
 .navbar__link {
 	font-size: 12px;
 	font-weight: 500;
-	font-family: 'DM Mono', monospace;
+	font-family: 'Geist', monospace;
 	color: var(--text-secondary);
 	letter-spacing: 0.6px;
 }
@@ -384,7 +348,7 @@ p {
 
 
 ul {
-	font-family: "Haffer";
+	font-family: "Geist";
 	font-weight: 200;
 	text-transform: none;
 }
@@ -395,7 +359,7 @@ ul {
 
 .sidebar-title {
 	font-size: 1rem;
-	font-family: "Haffer";
+	font-family: "Geist";
 	font-weight: 500;
 	letter-spacing: 0.05em;
 	margin: 0.7rem;
@@ -413,7 +377,7 @@ ul {
 
 /* NAVBAR LINKS */
 .navbar__item.navbar__link {
-	font-family: 'DM Mono', monospace;
+	font-family: 'Geist', monospace;
 	color: var(--text-secondary);
 	font-size: 12px !important;
 	align-items: center;
@@ -436,7 +400,7 @@ ul {
 	font-size: 16px !important;
 	line-height: 27.2px !important;
 	font-weight: 400 !important;
-	font-family: "Haffer";
+	font-family: "Geist";
 	letter-spacing: 0.32px;
 }
 
@@ -450,7 +414,7 @@ ul {
 .breadcrumbs__item.breadcrumbs__item--active .breadcrumbs__link {
 	background: initial !important;
 	color: var(--text-primary);
-	font-family: 'DM Mono', monospace;
+	font-family: "Geist", monospace;
 }
 
 /* Footer */
@@ -499,7 +463,7 @@ ul {
 .theme-doc-sidebar-menu.menu__list > li::after {
 	content: '';
 	background-position: 0 0;
-	background-image: linear-gradient(to right, var(--grey-900), 1.5px, transparent 1.5px);
+
 	background-repeat: repeat-x;
 	background-size: 6px;
 	display: block;
@@ -516,7 +480,6 @@ ul {
 .menu__list-item-collapsible::after {
 	content: '';
 	background-position: 0 0;
-	background-image: linear-gradient(to right, var(--grey-900), 1.5px, transparent 1.5px);
 	background-repeat: repeat-x;
 	background-size: 6px;
 	display: block;
@@ -558,20 +521,24 @@ ul {
 
 .menu__link {
 	border-radius: 0 !important;
-	color: var(--ifm-navbar-item-color);
+	color: purple;
 	font-size: 12px !important;
-	font-family: 'DM Mono', monospace;
+	font-family: "Geist", monospace;
 	letter-spacing: 0.6px !important;
 }
 
 [data-theme="dark"] .menu__link:hover {
-	color:var(--ifm-table-of-contents-text-active);
+	color: white;
+	background-color: transparent;
+}
+[data-theme="dark"] .menu__link {
+	color: var(--ifm-table-of-contents-text-active);
 	background-color: transparent;
 }
 
 [data-theme="dark"] .menu__list-item-collapsible {
 	background-color: transparent !important;
-	color:var(--ifm-table-of-contents-text-active) !important;
+	color:white !important;
 }
 
 .menu__link--active {
@@ -628,7 +595,7 @@ ul {
 /* right bar style */
 .table-of-contents__link {
 	color: #5F6368;
-	font-family: 'DM Mono', monospace;
+	font-family: "Geist", monospace;
 	font-size: 0.75rem;
 	line-height: 130%;
 	letter-spacing: 0.6px;
@@ -733,7 +700,7 @@ ul {
 	margin: 0 !important;
 	cursor: pointer;
 	color: var(--text-secondary, #5F6368);
-	font-family: 'DM Mono', monospace;
+	font-family: "Geist", monospace;
 	font-size: 12px;
 	letter-spacing: 0.6px;
 	text-transform: uppercase; 
@@ -746,7 +713,7 @@ ul {
 .dropdown__menu > li:not(:last-child)::after {
 	content: '';
 	background-position: 0 0;
-	background-image: linear-gradient(to right, var(--grey-900), 1.5px, transparent 1.5px);
+	background-color: var(--grey-900);
 	background-repeat: repeat-x;
 	background-size: 6px;
 	display: block;
@@ -889,7 +856,7 @@ ul {
 	font-weight: 400 !important;
 	text-transform: uppercase;
 	font-size: 0.7rem;
-	font-family: 'DM Mono', monospace;
+	font-family: "Geist", monospace;
 	letter-spacing:0.6;
 }
 
@@ -976,7 +943,7 @@ ul {
 }
 
 .footer .footer__copyright {
-	font-family: TTCommonsPro !important;
+	font-family: Geist !important;
 	font-size: 14px !important;
 	text-transform: uppercase !important;
 	display: flex;
@@ -1058,7 +1025,7 @@ ul {
 	position: relative;
 	border-left-width: 3px !important;
 	border-radius: 0 !important;
-	font-family: Haffer !important;
+	font-family: IBMPLEX !important;
 	box-shadow: 0 !important;
 }
 
@@ -1213,7 +1180,7 @@ hr {
 ol:not([class]) li {
 	font-size: 16px !important;
 	font-weight: 400 !important;
-	font-family: "Haffer";
+	font-family: "Geist";
 }
 
 ul.dashed_ul {

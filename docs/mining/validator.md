@@ -33,9 +33,6 @@ c call vali/module_info
 c s/get_module vali # or the module name
 ```
 
-```python
-```
-
 
 ```bash
 {

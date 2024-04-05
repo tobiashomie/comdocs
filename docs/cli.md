@@ -11,7 +11,9 @@ How the cli works
 
 ```bash
 c {module_name}/{function_name} {kwargs}
-```or 
+```
+or
+ 
 ```bash
 c {module_name} {function_name} {kwargs} {flags}
 ```

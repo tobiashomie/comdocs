@@ -1,6 +1,6 @@
 .link {
   color: var(--grey-900);
-  font-family: 'DM Mono', monospace;
+  font-family: 'IBMPlexSans', monospace;
   font-size: 0.75rem;
   line-height: 1.6;
   letter-spacing: 0.6px;
@@ -23,11 +23,12 @@
 	margin-top: 88px;
 	margin-bottom: 48px !important;
 	padding-bottom: 48px;
-	font-family: Haffer;
+	font-family: Geist;
 	font-size: 6rem !important;
 	line-height: 90%;
 	letter-spacing: -3.84px;
 	position: relative;
+	color: purple;
 }
 @media screen and (max-width: 550px) {
 	.topLevelDoc > h1 {

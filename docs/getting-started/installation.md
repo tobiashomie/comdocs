@@ -73,7 +73,6 @@ c sync
 ```
 
 Congratulations! Commune is now set up and running inside a Docker container.
-Congratulations! Commune is now set up and running without Docker
 
 ## Note:
 
