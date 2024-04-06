@@ -97,7 +97,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/commune-logo.svg",
+      image: "img/commune.png",
       docs: {
         sidebar: {
           autoCollapseCategories: true,
