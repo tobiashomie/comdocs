@@ -109,7 +109,7 @@ const config = {
         logo: {
           alt: "Commune AI",
           src: "img/commune-logo.svg",
-          srcDark: "img/com-logo.svg",
+          srcDark: "img/commune-logo.svg",
           href: "https://communeai.org",
           style: {
             objectFit: "contain",

@@ -6,11 +6,11 @@
 
 /* You can override the default Infima variables here. */
 :root {
-	--ifm-color-primary: rgba(14, 16, 19, 1);
+	--ifm-color-primary: rgb(46, 191, 46);
 	--ifm-color-primary-dark: #29784c;
 	--ifm-color-primary-darker: #277148;
 	--ifm-color-primary-darkest: #205d3b;
-	--ifm-color-primary-light: black;
+	--ifm-color-primary-light: rgb(186, 66, 66);
 	--ifm-color-primary-lighter: #359962;
 	--ifm-color-primary-lightest: #3cad6e;
 	--ifm-code-font-size: 95%;
@@ -77,6 +77,7 @@
 }
 
 [data-theme="light"] {
+	background-color: rgb(249, 239, 228);
 	--ifm-color-primary: black;
 	--ifm-color-primary-dark: white;
 	--ifm-color-primary-darker: #1fa588;
@@ -1237,8 +1238,11 @@ p>a>img[loading="lazy"] {
 
 .navbar.navbar--fixed-top {
 	margin-bottom: 0 !important;
+	
 }
-
+[data-theme="light"] .navbar.navbar--fixed-top {
+	background-color: rgb(249, 239, 228);
+}
 main article {
 	position: relative !important;
 }
