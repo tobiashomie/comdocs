@@ -17,10 +17,11 @@ const config = {
   tagline: "Developer Documentation",
   favicon: "img/favicon.png",
   // Set the production url of your site here
-  url: "https://docs.communeai.org",
+  url: "https://comdocs.netlify.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
+  trailingSlash: false,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "tobiashomie", // Usually your GitHub org/user name.
@@ -107,8 +108,8 @@ const config = {
       navbar: {
         logo: {
           alt: "Commune AI",
-          src: "img/com-logo.gif",
-          srcDark: "img/com-logo.gif",
+          src: "img/commune-logo.svg",
+          srcDark: "img/commune-logo.svg",
           href: "https://communeai.org",
           style: {
             objectFit: "contain",
@@ -136,10 +137,10 @@ const config = {
         additionalLanguages: ["bash", "python", "diff", "json"],
       },
       algolia: {
-        appId: "9GDT03N6QI",
-        apiKey: "c8b2fa17d5fad15f544f40a9e29f7f74",
-        indexName: "new--alpha",
-        contextualSearch: true,
+        appId: "R93P2MES4D",
+        apiKey: "4d7256191b61a2070f99a197131a958a",    
+        indexName: "com-netlify",
+        contextualSearch: false,
         insights: true,
         debug: false,
       },
@@ -149,7 +150,7 @@ const config = {
 						© ${new Date().getFullYear()} <a href="https://communeai.org">Commune AI</a> • Open Community. <span>all rights reserved.</span>
 					</div>
 					<a href='https://communeai.org'>
-					<img src="/img/com-logo.gif" width=50px alt="logo"/>
+					<img src="/img/commune-logo.svg" width=50px alt="logo"/>
 					</a>
 				`,
       },

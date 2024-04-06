@@ -79,7 +79,7 @@
 .search_mask {
 	position:absolute;
 	height:80px;
-	background:white;
+	background-color: rgb(249, 239, 228);
 	width:268px;
 	top:-26px;
 	display:none;
