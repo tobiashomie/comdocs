@@ -1304,7 +1304,6 @@ footer .container.container-fluid {
 	color: #000000 !important;
 }
 
-
 .DocSearch-Hit[aria-selected=true] a .DocSearch-Hit-path {
 	font-weight: 400 !important;
 	color: var(--ifm-dock-search-active-a-color) !important;
