@@ -17,10 +17,11 @@ const config = {
   tagline: "Developer Documentation",
   favicon: "img/favicon.png",
   // Set the production url of your site here
-  url: "https://docs.communeai.org",
+  url: "https://comdocs.netlify.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
+  trailingSlash: false,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "tobiashomie", // Usually your GitHub org/user name.
@@ -136,9 +137,9 @@ const config = {
         additionalLanguages: ["bash", "python", "diff", "json"],
       },
       algolia: {
-        appId: "GJITEG7Z1U",
-        apiKey: "cb5721b5946aeefce244283af3a7f530",    
-        indexName: "main--beautiful-dasik-25264d",
+        appId: "R93P2MES4D",
+        apiKey: "4d7256191b61a2070f99a197131a958a",    
+        indexName: "com-netlify",
         contextualSearch: false,
         insights: true,
         debug: false,
