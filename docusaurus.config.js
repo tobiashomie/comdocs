@@ -139,7 +139,7 @@ const config = {
       algolia: {
         appId: "R93P2MES4D",
         apiKey: "4d7256191b61a2070f99a197131a958a",    
-        indexName: "com-netlify",
+        indexName: "comnetlify",
         contextualSearch: false,
         insights: true,
         debug: false,
