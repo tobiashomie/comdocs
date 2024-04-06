@@ -1005,7 +1005,7 @@ ul {
 .DocSearch-Modal .DocSearch-Hit-source {
 	font-size: 14px !important;
 	text-transform: uppercase !important;
-	font-family: TTCommonsPro !important;
+	font-family: Geist !important;
 }
 
 .DocSearch-Modal #docsearch-list li {
@@ -1149,7 +1149,7 @@ table tr th {
 	color: var(--ifm-table-header-color) !important;
 	font-size: 15px !important;
 	text-align: center !important;
-	font-family: TTCommonsPro !important;
+	font-family: Geist !important;
 	font-weight: 600 !important;
 }
 
@@ -1230,7 +1230,7 @@ p>a>img[loading="lazy"] {
 	width: 100%;
 	text-align: right;
 	font-size: 12px !important;
-	font-family: TTCommonsPro !important;
+	font-family: Geist !important;
 	color: #5f6368;
 	position: absolute !important;
 	top: -15px !important;
