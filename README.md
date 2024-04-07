@@ -1,10 +1,10 @@
 <h1 align="center">
   <a href="https://docs.commune.ai">
-    <img alt="CommuneAI Logo" src="./static/img/communeai-logo.png" />
+    <img alt="CommuneAI Logo" width=100px src="./static/img/commune-logo.svg" />
   </a>
 </h1>
 <h2 align="center">CommuneAI Developer Docs</h2>
-<h3 align="center">https://docs.commune.ai</h3>
+<h3 align="center">https://comdocs.netlify.app</h3>
 
 -----------------------------------------------------------------------------
 
