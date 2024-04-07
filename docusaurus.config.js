@@ -17,7 +17,7 @@ const config = {
   tagline: "Developer Documentation",
   favicon: "img/favicon.png",
   // Set the production url of your site here
-  url: "https://comdocs.netlify.app",
+  url: "https://deploy-preview-5--comdocs.netlify.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
