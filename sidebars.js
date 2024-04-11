@@ -21,7 +21,7 @@ const sidebars = {
     // 	className: 'sidebarSearch', //  based on Class name it will add search component
     // },
     "index",
-
+    "questions-and-answers",
     {
       type: "category",
       label: "Get Started",
@@ -56,7 +56,7 @@ const sidebars = {
     },
 
     "cli",
-    "module",
+    "module"
     // "reference/bittensor-api-ref",
 
   ],
