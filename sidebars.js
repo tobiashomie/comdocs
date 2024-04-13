@@ -67,6 +67,16 @@ const sidebars = {
 
       ],
     },
+    {
+      type: "category",
+      label: "Blackpaper",
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "blackpaper/consensus",
+        "blackpaper/staking"
+      ],
+    },
     "cli",
     "module"
     // "reference/bittensor-api-ref",
