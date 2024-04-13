@@ -52,11 +52,9 @@ where the file is named `{module}.yaml` where `{module}.py` is the name of the m
 2. Without a YAML file
 
 ```python
-
 class Config:
     def __init__(self, a=1, b=2, c=3):
         ...
-```
 ```
 
 ```python
