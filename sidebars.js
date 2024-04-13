@@ -54,7 +54,19 @@ const sidebars = {
         "mining/validator"
       ],
     },
+    {
+      type: "category",
+      label: "Notebooks",
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "notebooks/key_management",
+        "notebooks/module_basics",
+        "notebooks/navigate_the_network",
+        "notebooks/run_a_model"
 
+      ],
+    },
     "cli",
     "module"
     // "reference/bittensor-api-ref",
