@@ -20,7 +20,7 @@ or
 c.keys()
 ```
 
-```
+```bash
 [
    'model.openrouter::replica.1',
     'model.openrouter::replica.2',
@@ -58,7 +58,7 @@ You can also retrieve key info using the `key_info()` function:
 ```python
 c.key_info('fam')  # Replace 'fam' with the key name
 
-```
+```bash
 {
     'crypto_type': 1,
     'seed_hex': '6a363df4c2b7eaeb0b13efedbd37308d2bda3be8bc8aa758ecc00eb3089f7b97',
