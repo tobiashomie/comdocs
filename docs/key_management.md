@@ -57,6 +57,7 @@ You can also retrieve key info using the `key_info()` function:
 
 ```python
 c.key_info('fam')  # Replace 'fam' with the key name
+```
 
 ```bash
 {
