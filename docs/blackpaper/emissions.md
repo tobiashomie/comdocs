@@ -1,5 +1,5 @@
 ---
-title: "Consensus"
+title: "Emissions"
 ---
 **Stake Based Conseneus Protocals**
 

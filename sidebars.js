@@ -73,8 +73,15 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
-        "blackpaper/consensus",
-        "blackpaper/staking"
+        "blackpaper/module",
+        "blackpaper/namespace",
+        "blackpaper/emissions",
+        "blackpaper/subnets",
+        "blackpaper/validator",
+        "blackpaper/staking",
+        "blackpaper/profit_sharing_emissions",
+        "blackpaper/tokens",
+        "blackpaper/multichain"
       ],
     },
     "cli",
