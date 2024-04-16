@@ -54,9 +54,39 @@ const sidebars = {
         "mining/validator"
       ],
     },
+    {
+      type: "category",
+      label: "Notebooks",
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "notebooks/key_management",
+        "notebooks/module_basics",
+        "notebooks/navigate_the_network",
+        "notebooks/run_a_model"
 
+      ],
+    },
+    {
+      type: "category",
+      label: "Blackpaper",
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "blackpaper/module",
+        "blackpaper/namespace",
+        "blackpaper/emissions",
+        "blackpaper/subnets",
+        "blackpaper/validator",
+        "blackpaper/staking",
+        "blackpaper/profit_sharing_emissions",
+        "blackpaper/tokens",
+        "blackpaper/multichain"
+      ],
+    },
     "cli",
-    "module"
+    "module",
+    "key_management"
     // "reference/bittensor-api-ref",
 
   ],
