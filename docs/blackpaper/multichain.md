@@ -5,7 +5,7 @@ title: "Multichain"
 We live in a multichain world
 ```python
 c.add_token(key='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w', #the key of the token
-            supply=1000000, # initial supplys
+            supply=1000000, # initial supply
             native_tokens=1000 # the initial native tokens 
             mint_ratio=1, # the number of tokens that are minted when emission enters from a module or a subnet
             k=1 # the curve ratio on the uniswap curve
@@ -35,7 +35,7 @@ Token State
         'key': '5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w', # the key of the token
         'token_pool': 51000, # the balance of the token pool
         'max_price_ratio': 1.1  # the maximum price ratio before the pool is adjusted
-        'min_price_ratio': 0.9 # the minimum price ratio before the pool is adjustedssss
+        'min_price_ratio': 0.9 # the minimum price ratio before the pool is adjusted
         'k': 1, # the curve ratio on the uniswap curve
     } 
     'balances': {
@@ -62,7 +62,7 @@ The balances of the token holders are stored in the balances dictionary. The key
 
 The native pool balance is the balance of the native tokens in the pool. This is the balance of the native tokens in the pool.
 
-### Minumum Price Ratio
+### Minimum Price Ratio
 
 The minimum price ratio is the minimum price ratio before the pool is adjusted. This is the minimum price ratio before the pool is adjusted. If the price hits the minimum price ratio, the token pool is adjusted such that the price is brought back to the minimum price ratio.
 
@@ -108,4 +108,4 @@ This will register the token onto the chain
 c.update_module('module', token_ratio=0.1)
 ```
 
-This means 10 percent of the liquidity (0.1) is being directed into the pool while getting the tokens minted in addition to the tokens from the pool. This forces less volitility as it incentivizes volume.
+This means 10 percent of the liquidity (0.1) is being directed into the pool while getting the tokens minted in addition to the tokens from the pool. This forces less volatility as it incentivizes volume.

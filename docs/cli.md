@@ -4,7 +4,7 @@ title: "Commune CLI"
 
 # The Commune CLI
 
-We have a pythonic cli for commune, which is a wrapper around the `c.Module` library. This is a simple way to interact with the commune library. This does not need to be formated like argparse, and is more like a pythonic cli, where you can test out the functions and modules.
+We have a pythonic cli for commune, which is a wrapper around the `c.Module` library. This is a simple way to interact with the commune library. This does not need to be formatted like argparse, and is more like a pythonic cli, where you can test out the functions and modules.
 
 
 How the cli works
@@ -50,7 +50,7 @@ to get the config of the model.agi module, you can use the following command:
 ```bash
 c agi config
 ```
-if you dont have a config or yaml file, the key word arguments will be used as the config.
+if you don't have a config or yaml file, the key word arguments will be used as the config.
 
 This is the same as the following python code:
 ```python

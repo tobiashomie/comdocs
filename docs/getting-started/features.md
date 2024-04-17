@@ -65,7 +65,7 @@ If you prefer to use the default module path as the name, simply omit the `name`
 c register my_module_path tag=1
 ```
 
-# Developement FAQ
+# Development FAQ
 
 - Where can i find further documentation? This repository folder, [Doc](https://github.com/commune-ai/commune/tree/main/docs).
 - Can I install on Windows? Yes, [Guide](https://github.com/OmnipotentLabs/communeaisetup).

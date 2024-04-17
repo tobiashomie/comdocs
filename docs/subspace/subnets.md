@@ -46,7 +46,7 @@ class MyVali(Vali):
 
 ## Subnet Parameters
 
-To get the subnet parametes
+To get the subnet parameters
 
 ```bash 
 c subnet_params netuid=10
@@ -55,7 +55,7 @@ c subnet_params netuid=10
 When you register a subnet, the default parameters are as such.
 
 tempo (int)
-- the number of blocks between each epoch before the votes are calcualted
+- the number of blocks between each epoch before the votes are calculated
 
 immunity_period (int)
 - the number of blocks before a module can be removed from the subnet due to having the lowest score
@@ -83,8 +83,8 @@ incentive_ratio (int) (min=0, max=100)
 - the percentage of emissions that goes towards incentive (miners)
 
 trust_ratio (int) (min=0, max=100)
-- the percentage of votes that are weighted as tust (number of modules that vote for you), in addition the voted stake. 
-- for example, if 10 of 100 people vote for you and the tust score is 100, then you get 10/100 score. If someone else has twice as many models that vote for them, they get twice the score (20/100). 
+- the percentage of votes that are weighted as trust (number of modules that vote for you), in addition the voted stake. 
+- for example, if 10 of 100 people vote for you and the trust score is 100, then you get 10/100 score. If someone else has twice as many models that vote for them, they get twice the score (20/100). 
     - having a high trust score means that stake is weighted less, but forces people to get the most votes from the network
 - if trust is 0, then the votes are entirely based on stake
     - having a low trust means that the votes are more stake based, and are linear with stake. 
@@ -128,7 +128,7 @@ max_stake
 
 
 # Updating a Subnet (Authority)
-As the authority you can redifine any parameter within special global boundaries (see global docs).
+As the authority you can redefine any parameter within special global boundaries (see global docs).
 
 As an Authority
 

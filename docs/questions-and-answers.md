@@ -8,7 +8,7 @@ hide_table_of_contents: false
 <summary>
 What is Commune and its philosophy?
 </summary>
-Commune is a censorship resistant peer to peer protocol leveraging cryptoeconomic incentives for the decentralized creation and access of machine intelligence and other digital commodities. Commune follows a radically OpenSource and modular design philosophy centered around cooperation, sharing and reusability of resources.
+Commune is a censorship resistant peer to peer protocol leveraging crypto-economic incentives for the decentralized creation and access of machine intelligence and other digital commodities. Commune follows a radically OpenSource and modular design philosophy centered around cooperation, sharing and reusability of resources.
 </details>
 
 <details>
@@ -57,7 +57,7 @@ Please refer to [Omnipotent Labs' Tutorial](https://www.youtube.com/watch?v=JrQK
 <summary>
 What are the tokenomics of $COMAI?
 </summary>
-COMAI launched fairly without premine, meaning the founder mines in the open network like everyone else. Emissions are split 50/50 between validators and miners. validators earn dividends on stake for producing evaluations of miners, while miners earn incentive by receiving good evaluations from validators.
+COMAI launched fairly without pre-mine, meaning the founder mines in the open network like everyone else. Emissions are split 50/50 between validators and miners. validators earn dividends on stake for producing evaluations of miners, while miners earn incentive by receiving good evaluations from validators.
 </details>
 
 <details>
@@ -93,7 +93,7 @@ Yes! [Omnipotent Labs](https://www.youtube.com/@omnipotentlabs) produces regular
 
 What is the roadmap of Commune?
 </summary>
-Commune is emerging in a decentralised manner, meaning it is formed by the contributions of many different independent people who commit code or try to convince the community to implement an idea. This makes the conventional concept of a roadmap unapplicable. However the goal for the community will always be to increase the prosperity of the protocol by improving its mechanisms and the value produced by miners and validators, while keeping it as fair and decentralized as possible. So at large we will likely always work towards that direction.
+Commune is emerging in a decentralized manner, meaning it is formed by the contributions of many different independent people who commit code or try to convince the community to implement an idea. This makes the conventional concept of a roadmap unapplicable. However the goal for the community will always be to increase the prosperity of the protocol by improving its mechanisms and the value produced by miners and validators, while keeping it as fair and decentralized as possible. So at large we will likely always work towards that direction.
 </details>
 
 <details>
