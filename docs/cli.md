@@ -6,7 +6,6 @@ title: "Commune CLI"
 
 We have a pythonic cli for commune, which is a wrapper around the `c.Module` library. This is a simple way to interact with the commune library. This does not need to be formatted like argparse, and is more like a pythonic cli, where you can test out the functions and modules.
 
-
 How the cli works
 
 ```bash
@@ -54,7 +53,6 @@ if you don't have a config or yaml file, the key word arguments will be used as 
 
 This is the same as the following python code:
 ```python
-
 import commune as c
 c.module("agi").config()
 ```
@@ -66,7 +64,6 @@ c agi code
 ```
 
 ```python
-
 import commune as c
 
 class Agi(c.Module):
@@ -77,8 +74,6 @@ class Agi(c.Module):
         c.print(self.config)
         c.print(self.config, 'This is the config, it is a Munch object')
         return x + y
-    
-
 ```
 
 to get the config, which is a yaml, or the key word arguments of the __init__

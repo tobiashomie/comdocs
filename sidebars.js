@@ -86,7 +86,8 @@ const sidebars = {
     },
     "cli",
     "module",
-    "key_management"
+    "key_management",
+    "serve_a_module"
     // "reference/bittensor-api-ref",
 
   ],
