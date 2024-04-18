@@ -117,9 +117,6 @@ to get the info
 c call model.openai/info
 ```
 
-The
-
-
 ```bash
 {
     'address': 'http://68.174.126.229:50113',
