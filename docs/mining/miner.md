@@ -16,9 +16,6 @@ c serve  model.openai::whadup # defaults to (netuid=0 subnet=commune key=model.o
 c register vali::whadup # defaults to (netuid=0 subnet=commune key=module)
 ```
 
-
-```
-
 ```python 
 c.module('model.openai').register(tag='whadup', subnet=commune)
 ```
@@ -38,7 +35,6 @@ Now see if the miner is running
 
 ```bash
 c logs model.openai::whadup
-
 ```
 
 
