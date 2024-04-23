@@ -16,7 +16,6 @@ Like a python class (to which we try to maximally mimic as much as possible), a 
 
 Each module is represented as a key which is an sr25519 key. The public key is used to register the module onto the blockchain. The key is used to sign, encrypt,decrypt and verify messages. These keys can also represent other keys on any other chain through transferring its seed entropy to another chain key format. This allows for modules to exist on any chain
 
-![Alt text](image_module_key.png)
 
 ### For Warning for Anti-Python Peeps
 
@@ -33,8 +32,6 @@ class Model(c.Module):
     def add(self, a=1, b=1):
         return a + b + self.c
 ```
-
-![Alt text](image_module.png)
 
 
 I can serve this as an api which runs in the background 
