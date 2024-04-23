@@ -3,7 +3,7 @@ title: "Staking"
 ---
 # Subspace Module
 
-This involves a runthrough of the main function of subspace. We recommend going through the code if you want to understand the full extent of this module as there are alot of functions
+This involves a run-through of the main function of subspace. We recommend going through the code if you want to understand the full extent of this module as there are a lot of functions
 
 
 ## ROOT KEY
@@ -51,7 +51,7 @@ c update_module model.openai name=model.openai::fam1 address=124.545.545:8080
 ## Syncing with the network 
 
 To ensure you are synced with the blockchain you must run the sync loop for subspace.
-This loop periodically syncs with the network in the bacground every interval=60 seconds
+This loop periodically syncs with the network in the background every interval=60 seconds
 
 ```bash
 c s loop interval=60

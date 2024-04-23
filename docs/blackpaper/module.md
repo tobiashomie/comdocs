@@ -2,7 +2,7 @@
 title: "Module"
 ---
 
-I am not the best at writing as I see ideas and its hard for me to put them down, unless i spend time. But here is a recap of commune. Our goal is to connect all applications into a decentralized network. This involves creating a tokenomics structure that can adapt to everything by providing incentives to run applicaitons. To do this, we required to 
+I am not the best at writing as I see ideas and its hard for me to put them down, unless i spend time. But here is a recap of commune. Our goal is to connect all applications into a decentralized network. This involves creating a tokenomics structure that can adapt to everything by providing incentives to run applications. To do this, we required to 
 
 ### The Module
 
@@ -10,11 +10,12 @@ A module can represent everything as it is turing complete. This means a module 
 
 ### The Module is Simple and Complex? 
 
-Like a python class (to whic we try to maximally mimic as much as possible), a module can represent a simple idea like a function, or a complex idea like a business. This allows for a flexible network that can adapt to different use cases. The module is the core abstract that allows for a flexible network that can adapt to different use cases. This is becuase the module is turing complete, and can represent any idea.
+Like a python class (to which we try to maximally mimic as much as possible), a module can represent a simple idea like a function, or a complex idea like a business. This allows for a flexible network that can adapt to different use cases. The module is the core abstract that allows for a flexible network that can adapt to different use cases. This is because the module is turing complete, and can represent any idea.
 
 ### Module Key
 
-Each module is represented as a key which is an sr25519 key. The public key is used to register the module onto the blockchain. The key is used to sign, encrypt,decrypt and verify messages. These keys can also represent other keys on any other chain through transfering its seed entropy to another chain key format. This allows for modules to exist on any chain
+Each module is represented as a key which is an sr25519 key. The public key is used to register the module onto the blockchain. The key is used to sign, encrypt,decrypt and verify messages. These keys can also represent other keys on any other chain through transferring its seed entropy to another chain key format. This allows for modules to exist on any chain
+
 
 ### For Warning for Anti-Python Peeps
 
@@ -31,6 +32,7 @@ class Model(c.Module):
     def add(self, a=1, b=1):
         return a + b + self.c
 ```
+
 
 I can serve this as an api which runs in the background 
 
@@ -49,7 +51,6 @@ When you serve the module, you will need to give it a name. By default it is
 c.serve("model.openai::whadup")
 ```
 This will serve the module onto the network. To register it onto the blockchain. The following stakes 100 tokens onto model.openai::whadup, onto the commune subnet.
-
 ```
 c.register("model.openai::whadup", stake=100 ,subnet=commune)
 ```
@@ -102,3 +103,15 @@ c add_shortcut wombo w
 {'success': True, 'msg': 'added shortcut (wombo -> w)'}
 ```
 
+
+
+### Namespaces
+
+Namespaces are a way to organize modules. Each namespace is a collection of modules that associates. To see the namespace of a network
+
+```python
+c.namespace(network='local')
+```
+```bash
+{'subnet.add.subnet.vali': '0.0.0.0:50214', 'subnet.vali::0': '0.0.0.0:50086', 'vali': '0.0.0.0:50204'}
+```

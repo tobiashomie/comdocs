@@ -78,7 +78,6 @@ OUTPUT
     'author': 'John Doe',
     'email': '
     'license': 'MIT',
-
 }
 ```
 

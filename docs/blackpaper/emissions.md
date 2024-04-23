@@ -1,9 +1,9 @@
 ---
 title: "Emissions"
 ---
-**Stake Based Conseneus Protocals**
+**Stake Based Consensus Protocols**
 
-Commune is a flexible modular chain that allows for multiple consensus protocals. The two main protocals are yuma and yomama. Commune intends to have a flexible network that can adapt to different use cases and add additional protocals in the future for different use cases.
+Commune is a flexible modular chain that allows for multiple consensus protocols. The two main protocols are yuma and yomama. Commune intends to have a flexible network that can adapt to different use cases and add additional protocols in the future for different use cases.
 
 **Linear**
 
@@ -18,4 +18,14 @@ Yomama voting includes several restrictions to avoid self voting concentrations 
 Trust Score = (Number of Modules that voted for you) / (Total Number of Modules)
 
 This allows for a flexible system where the network can decide to be more stake weighted or trust weighted. This allows for a more flexible network that can adapt to different use cases.
+
+**yumaswap**
+
+The yumaswap protocol uses the uniswap protocal to incentivize early stakers more than later stakers. This is done by using a bonding curve to calculate the rewards. The bonding curve is defined as the following:
+
+```python
+reward = emission * (1 - delegation_fee) * (stake / total_stake)
+```
+
+The reward is then added to the stake of the module. The total stake is the sum of all stakes on the module. The delegation_fee is the fee the module takes from the reward. The emission is the total emission of the module.
 

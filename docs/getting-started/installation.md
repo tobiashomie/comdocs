@@ -7,7 +7,7 @@ Install setuptools:
 If you haven't already installed setuptools, you can do so using pip:
 
 ```bash
-pip install -r requirements; pip install -e .
+pip install -r requirements.txt; pip install -e .
 ```
 or 
 ```bash

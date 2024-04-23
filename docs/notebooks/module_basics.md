@@ -85,10 +85,8 @@ model = {}
 model['local'] = c.module('model.openai')()
 model['remote'] = c.connect('model.openai')
 model = c.munch(model)
-
 response = {}
 response['local'] = model.local.generate('what is 2+2?')
 response['remote'] = model.local.generate('what is 2+2?')
-
 response
 ```
