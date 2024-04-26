@@ -3,7 +3,7 @@ title: "Register a Miner"
 ---
 
 # Subspace Module
-This involves a runthrough of the main function of subspace. We recommend going through the code if you want to understand the full extent of this module as there are alot of functions
+This involves a run-through of the main function of subspace. We recommend going through the code if you want to understand the full extent of this module as there are a lot of functions
 
 
 ## ROOT KEY

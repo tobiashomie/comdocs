@@ -21,7 +21,7 @@ This allows for a flexible system where the network can decide to be more stake 
 
 **yumaswap**
 
-The yumaswap protocol uses the uniswap protocal to incentivize early stakers more than later stakers. This is done by using a bonding curve to calculate the rewards. The bonding curve is defined as the following:
+The yumaswap protocol uses the uniswap protocol to incentivize early stakers more than later stakers. This is done by using a bonding curve to calculate the rewards. The bonding curve is defined as the following:
 
 ```python
 reward = emission * (1 - delegation_fee) * (stake / total_stake)
