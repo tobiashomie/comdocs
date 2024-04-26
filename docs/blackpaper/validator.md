@@ -41,14 +41,14 @@ def filter_module(self, module:str):
 ```
 ### Chain Agnostic Validation over Networks:
 
-Each network is a bundle of modules, which can be refered to as a subnet. This can be onchain (voting enabled) or offchain (no voting enabled for on chain incentives).
+Each network is a bundle of modules, which can be referred to as a subnet. This can be onchain (voting enabled) or offchain (no voting enabled for on chain incentives).
 
 A validator can validate the local network, or a blockchain network (subspace, substrate, etc). The validator can also validate multiple networks at once.
 
 
 ### How The Validator Works:
 
-The validator scans the network to randomly sample modules within that network. It then calls the score function and returns the score of that functionf for that module. 
+The validator scans the network to randomly sample modules within that network. It then calls the score function and returns the score of that function for that module. 
 
 If the score is non-zero, the validator will store the module's info and the score. The validator will then vote on the top n modules with the highest scores. 
 

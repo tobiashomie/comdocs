@@ -21,7 +21,7 @@ If you are running commune with docker, you can skip to the next section.
 Ensure that you have Docker installed on your machine. If you don't, you can follow the official Docker installation guide for your operating system.
 
 
-3. **Build the Docker Image**: Navigate to the cloned Commune repository and build the Docker image using the provided `Dockerfile`, This can be done via the docker-compsoe file.:
+3. **Build the Docker Image**: Navigate to the cloned Commune repository and build the Docker image using the provided `Dockerfile`, This can be done via the docker-compose file.:
 
 ```
 docker-compose up # or docker build -t commune .
