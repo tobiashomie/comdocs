@@ -79,13 +79,13 @@ const sidebars = {
       collapsed: false,
       items: [
         "blackpaper/module",
-        "blackpaper/namespace",
         "blackpaper/emissions",
         "blackpaper/validator",
         "blackpaper/staking",
         "blackpaper/profit_sharing_emissions",
         "blackpaper/tokens",
-        "blackpaper/multichain"
+        "blackpaper/multichain",
+        "blackpaper/module_filesystem"
       ],
     },
     // "reference/bittensor-api-ref",
