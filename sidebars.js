@@ -40,18 +40,10 @@ const sidebars = {
       collapsed: false,
       items: [
         "subspace/staking",
-        "subspace/subnets",
-      ],
-    },
-    {
-      type: "category",
-      label: "Mining",
-      collapsible: true,
-      collapsed: false,
-      items: [
-        "mining/miner",
-        "mining/register",
-        "mining/validator"
+        "subspace/subnets",        
+        "subspace/miner",
+        "subspace/register",
+        "subspace/validator"
       ],
     },
     {
@@ -76,7 +68,6 @@ const sidebars = {
         "blackpaper/module",
         "blackpaper/namespace",
         "blackpaper/emissions",
-        "blackpaper/subnets",
         "blackpaper/validator",
         "blackpaper/staking",
         "blackpaper/profit_sharing_emissions",

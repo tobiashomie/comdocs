@@ -99,18 +99,14 @@ to check servers
 
 ```python
 c.servers()
-```
-
 ['servers']
-
+```
 or 
 
 ```bash
 c servers
 ```
-
 to get the info
-
 
 ```python
 c call model.openai/info

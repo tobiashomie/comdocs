@@ -1,13 +1,11 @@
 ---
-title: "Register a Miner"
+title: "Subspace Module"
 ---
-
 # Subspace Module
 This involves a run-through of the main function of subspace. We recommend going through the code if you want to understand the full extent of this module as there are a lot of functions
 
 
 ## ROOT KEY
-
 The root key is what you should be using for managing your commune modules. by default this is the following.
 
 ```bash 
