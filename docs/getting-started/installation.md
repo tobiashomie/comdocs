@@ -1,79 +1,95 @@
 ---
 title: "Install Commune"
 ---
-### Setting Up With setup.py
+## Setup Commune
 
-Install setuptools:
-If you haven't already installed setuptools, you can do so using pip:
+To setup commune clone the repo and run the following commands
 
-```bash
-pip install -r requirements.txt; pip install -e .
+1. **Clone the Commune Repository**: Open your terminal or command prompt and clone the Commune repository from GitHub:
+
 ```
-or 
-```bash
-./start.sh
+git clone https://github.com/commune-ai/commune.git
 ```
 
-### Setting Up Commune With Docker
+# Now you have two paths, you can either run commune with docker or without docker
 
-Install Docker: If you don't have Docker installed on your system, download and install it from the official Docker website: [https://www.docker.com/get-started](https://www.docker.com/get-started).
+Please note that running commune outside of docker will require you to install the dependencies yourself.
+If you are running commune with docker, you can skip to the next section.
 
-Clone the Commune Repository: Open your terminal or command prompt and clone the Commune repository from GitHub:
+## Setting up Commune With Docker
 
-```bash
-make up 
+Ensure that you have Docker installed on your machine. If you don't, you can follow the official Docker installation guide for your operating system.
+
+
+3. **Build the Docker Image**: Navigate to the cloned Commune repository and build the Docker image using the provided `Dockerfile`, This can be done via the docker-compsoe file.:
+
+```
+docker-compose up # or docker build -t commune .
 ```
 
-or 
-    
-```bash
-docker-compose build
+4. **Run Commune in Docker**: Start a Docker container with the Commune image:
+
+```
+docker-compose up
 ```
 
-Start Commune: Once the Docker container is built, start Commune by running the following command:
+5. **Enter the Docker Container**: Enter the Docker container:
 
 ```bash
-make start
+make enter # or docker exec -it commune bash
 ```
-or 
-```bash
-docker-compose up -d # -d for detached mode
-```
-
-To enter the docker container do, and do the following
-
-```bash
-make enter
-```
-or 
-```bash
-docker exec -it commune bash
-```
-
-Then run the following command to sync the network
-
-```bash
-c ls
-```
-
-
-
-
-
-To exit the container
-
+To exit the container, run the following command:
 ```bash
 exit
 ```
 
-Sync Commune with the Network: Inside the Docker container, run the following command to sync Commune with the network:
-
+To run commands inside the container, you can use the following command:
 ```bash
-c sync
+docker exec -it commune bash -c "c modules"
+```
+
+To Kill the container, run the following command:
+```bash
+docker-compose down
 ```
 
 Congratulations! Commune is now set up and running inside a Docker container.
 
-## Note:
+## Setting up Commune Without Docker
 
-This repo is on the cutting edge of experimentation, so there may be some hiccups along the way. If you're primarily interested in using the core features of the protocol (such as intuitive cli) or seeking a more lightweight implementation, consider installing the [Communex](https://github.com/agicommies/communex) package.
+**Install Dependencies**: Navigate to the cloned Commune repository and install the required dependencies:
+
+```
+cd commune
+pip install -e ./
+```
+
+3. **install npm pm2**
+This is required for the webserver to run
+```bash 
+chmod +x ./scripts/* # make sure the scripts are executable
+sudo ./scripts/install_npm_env.sh # install npm and pm2 (sudo may not be required)
+```
+
+4. Check if commune is installed correctly, try running the following command
+```bash
+c modules
+```
+
+That's it! Commune is now set up and ready to roll on your local machine.
+
+Whether you choose to set up Commune with Docker or without it, you're all set to leverage the power of Commune and connect your Python objects in a collaborative ecosystem. Have fun exploring the possibilities and making the most out of Commune!
+
+Note: Make sure to follow the official Commune documentation for detailed instructions and additional configuration options.
+
+
+## Ensure the port range is open or change the port range to a range of open ports for your module to be served on
+
+```bash
+# check the port range
+c port_range
+```
+
+```bash
+c set_port_range 8000 9000 # set the port range to 8000-9000
+```
