@@ -41,7 +41,7 @@ c.add_key("alice")
 
 or 
 
-c add_key alice
+```c add_key alice```
 
 ```bash
 {
@@ -132,7 +132,7 @@ dictionary
 
 This is a string that cotainers the data and signature. The seperator is used to mainly distinguish the data from the signature.
 
-{DATA}{SEPERATOR}{SIGNATURE}
+```{DATA}{SEPERATOR}{SIGNATURE}```
 
 ### Signature Tickets for Temporary Tokens
 
@@ -147,8 +147,10 @@ by calling
 
 the alice key signs the current timestamp and returns the ticket.
 
+```bash
 1713500654.659339::ticket::e0559b535129037a62947c65af35f17c50d29b4a5c31df86b069d8ada5bcbb230f4c1e996393e6721f78d88f9b512b
 6493b5ca743d027091585366875c6bea8e
+```
 
 now to verify the ticket you can do so like this.
 
@@ -224,18 +226,18 @@ c.key_info('fam')  # Replace 'fam' with the key name
 ```
 
 ```bash
-    {
-        'crypto_type': 1,
-        'seed_hex': '6a363df4c2b7eaeb0b13efedbd37308d2bda3be8bc8aa758ecc00eb3089f7b97',
-        'derive_path': None,
-        'path': 'fam',
-        'ss58_format': 42,
-        'public_key': '38199493328ca2224364c77204ee61008a9cab5a8246906201357ef056b82142',
-        'ss58_address': '5DLG8wM2beoHcveKEXxuh2NRgh55vRRx8b1PE4Ch3ZE8fndL',
-        'private_key':'d8e1c3d46f813eafac0d44481737e87b06241ba9cb5d6f760f8d62df48be450d2a84dcdfe506f218bc6646fe89daa1c1d1fd7af3a64ea0f3e8a73cc766743aa1',
-        'mnemonic': 'typical piece chair oven lift trap case current tomorrow wrap motor 
-    light'
-    }
+{
+    'crypto_type': 1,
+    'seed_hex': '6a363df4c2b7eaeb0b13efedbd37308d2bda3be8bc8aa758ecc00eb3089f7b97',
+    'derive_path': None,
+    'path': 'fam',
+    'ss58_format': 42,
+    'public_key': '38199493328ca2224364c77204ee61008a9cab5a8246906201357ef056b82142',
+    'ss58_address': '5DLG8wM2beoHcveKEXxuh2NRgh55vRRx8b1PE4Ch3ZE8fndL',
+    'private_key':'d8e1c3d46f813eafac0d44481737e87b06241ba9cb5d6f760f8d62df48be450d2a84dcdfe506f218bc6646fe89daa1c1d1fd7af3a64ea0f3e8a73cc766743aa1',
+    'mnemonic': 'typical piece chair oven lift trap case current tomorrow wrap motor 
+light'
+}
 ```
 
 ### Removing a Key

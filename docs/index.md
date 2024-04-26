@@ -105,7 +105,7 @@ Use the Commune CLI and Python API to develop and participate in the Commune net
     <Card 
     icon={GoCommandPalette}
     title='Commune CLI'
-    link='cli'
+    link='module/cli'
     body='With Commune CLI, you can stake or unstake funds, check network state and much more.' />
 </Cards>
 
