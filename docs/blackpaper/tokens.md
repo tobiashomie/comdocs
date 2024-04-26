@@ -1,6 +1,6 @@
-
-Tokens:
-
+---
+title: "Tokens"
+---
 We want anyone to make a token where the community can provide liquidity to support new ideas that benefit open source projects. These tokens can be minted if they are connected the a subnet or a module. The native token has a null address of 
 
 ```python
@@ -10,22 +10,22 @@ c.add_token(key='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w', #the key of 
             mint_ratio=1, # the number of tokens that are minted when emission enters from a module or a subnet
             k=1 # the curve ratio on the uniswap curve
             )
-
+```
 Token Params
-```python
-{
-    'key': '5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w',
-    'token_pool': 51000,
-    'native_pool': 1000,
-    'mint_ratio': 10
-    'k': 1,
-} 
+
+```bash
+    {
+        'key': '5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w',
+        'token_pool': 51000,
+        'native_pool': 1000,
+        'mint_ratio': 10
+        'k': 1,
+    } 
 ```
 The token is now registered inside the chain's Token Storage Mapping the token's address to the balances holders.
 
 Token State
 ```python
-
 {
     'params': {
         'key': '5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w', # the key of the token
@@ -77,7 +77,7 @@ The native pool balance is the balance of the native tokens in the pool. This is
 
 The following 
 c.swap_tokens(from_token='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w', 
-              to_token='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w
+              to_token='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w,
               amount=1000)
 {
     'from_token_amount': 50000,
@@ -89,7 +89,7 @@ c.swap_tokens(from_token='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w',
 
 If a module or subnet points towards a token address. The mint ratio will direct the tokens towards the emission provider. A module or subnet can connect with one or many tokens which can combine as meta token pools, which are adjusted bundles of token pools. However this part of the project will focus on single tokens per module and subnet.
 
-Connecting a token to a module or subnet
+### Connecting a token to a module or subnet
 
 ```python
 c.add_module_token(module='module',  # the module address
