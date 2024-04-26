@@ -10,19 +10,19 @@ In this tutorial, you will learn how to deploy a validator on the network and pe
 
 To register a validator with a specific tag, use the following CLI command:
 
+```python 
+import commune as c
+model = c.serve('model.openai::whadup', api_key='.....') # default to local network
+c.register('model.openai::whadup', subnet='commune') 
+```
+or 
+
 INPUT
 ```bash
-c serve  model.openai::whadup # defaults to (netuid=0 subnet=commune key=model.openai::whadup)
+c serve model.openai::whadup # defaults to (netuid=0 subnet=commune key=model.openai::whadup)
 c register vali::whadup # defaults to (netuid=0 subnet=commune key=module)
 ```
 
-```python 
-c.module('model.openai').register(tag='whadup', subnet=commune)
-```
-or
-```bash
-c model.openai register tag=whadup subnet=commune
-```
 OUTPUT
 Result
 ```bash
@@ -35,6 +35,7 @@ Now see if the miner is running
 
 ```bash
 c logs model.openai::whadup
+
 ```
 
 
@@ -220,4 +221,58 @@ dbbc6b1cf2d267366053ef26589f09dc730ef271ad3d18acc9ab4e83538a',
     'commit_hash': '9c3cdf050a29b973d2380675d59286504afad84b'
 }
 ```
+
+
+## Updating Servers 
+To update a module, use the following command:
+
+This updates the module with the name 'model.openai::2' with a delegation fee of 10 and the address 'http://0.9:9888'.
+```python
+c.module('subspace')().update_module('model.openai', name='model.openai::2',delegation_fee=10, address='http://0.9:9888')
+```
+
+# Updating All of your Servers at Once. 
+
+Sometimes your server may be running on a different port than the one it is registered under. In order to update the servers, use the following command:
+
+```python
+c.module('subspace')().update_servers(search=None)
+```
+
+or 
+```
+c subspace/update_servers 
+```
+
+If you want to only update a specific server, you can use the following command:
+```python
+c.module('subspace')().update_servers(search='model.openai')
+```
+or 
+```python
+c subspace/update_servers search=model.openai
+```
+
+### Launcher Keys
+
+A launcher key is a key that is used to launch a miner. By default, when you register a module, the key used to stake and register the module is the root key (module). To make a launcher key, use the following command:
+```python
+c new_key module::1
+```
+
+### To list the keys
+
+```python
+c launcher_keys 
+```
+
+### To load the balance of the keys by an amount
+
+```python
+c load_launcher_keys amount=500
+```
+
+This transfers the amount to the keys from the root key.
+
+
 
