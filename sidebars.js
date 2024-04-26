@@ -48,6 +48,19 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Module",
+      collapsible: true,
+      collapsed: false,
+      items: [
+        "module/cli",
+        "module/module",
+        "module/key_management",
+        "module/serve_a_module",
+        "module/making_an_app"
+      ],
+    },
+    {
+      type: "category",
       label: "Notebooks",
       collapsible: true,
       collapsed: false,
@@ -75,10 +88,6 @@ const sidebars = {
         "blackpaper/multichain"
       ],
     },
-    "cli",
-    "module",
-    "key_management",
-    "serve_a_module"
     // "reference/bittensor-api-ref",
 
   ],

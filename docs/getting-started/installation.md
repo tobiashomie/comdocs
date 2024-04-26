@@ -11,12 +11,12 @@ To setup commune clone the repo and run the following commands
 git clone https://github.com/commune-ai/commune.git
 ```
 
-# Now you have two paths, you can either run commune with docker or without docker
+ Now you have two paths, you can either run commune with docker or without docker
 
 Please note that running commune outside of docker will require you to install the dependencies yourself.
 If you are running commune with docker, you can skip to the next section.
 
-## Setting up Commune With Docker
+2. **Setting up Commune With Docker**
 
 Ensure that you have Docker installed on your machine. If you don't, you can follow the official Docker installation guide for your operating system.
 
@@ -64,14 +64,14 @@ cd commune
 pip install -e ./
 ```
 
-3. **install npm pm2**
+**install npm pm2**
 This is required for the webserver to run
 ```bash 
 chmod +x ./scripts/* # make sure the scripts are executable
 sudo ./scripts/install_npm_env.sh # install npm and pm2 (sudo may not be required)
 ```
 
-4. Check if commune is installed correctly, try running the following command
+Check if commune is installed correctly, try running the following command
 ```bash
 c modules
 ```
