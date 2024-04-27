@@ -6,9 +6,18 @@ title: "Module"
 In this tutorial, we'll explore how to use the `commune` library for module management in Python. The `commune` library provides functionalities for managing and serving code modules easily.
 
 ## Table of Contents
-- [Finding Your Module](#finding-your-module)
-- [Module Management](#module-management)
-- [Serving](#serving)
+- [Module Basics](#module-basics)
+  - [Table of Contents](#table-of-contents)
+  - [Finding Your Module](#finding-your-module)
+  - [New Module Creation](#new-module-creation)
+    - [Searching for a Specific Module](#searching-for-a-specific-module)
+    - [Viewing Module Info](#viewing-module-info)
+  - [Module Management](#module-management)
+    - [Accessing a Module](#accessing-a-module)
+    - [Viewing Module Config](#viewing-module-config)
+    - [Listing Module Functions](#listing-module-functions)
+    - [Searching for a Function](#searching-for-a-function)
+    - [Function Schema](#function-schema)
 
 ---
 
@@ -23,8 +32,56 @@ To create a new module, you can use the `commune` command line tool:
 c new_module agi
 ```
 
+```python
+c.new_module('agi')
+```
+
+```bash
+{
+    'success': True,
+    'path': '/Users/salvivona/commune/agi',
+    'module': 'agi',
+    'class_name': 'Agi',
+    'msg': ' created a new repo called agi'
+}
+```
+
+```c agi/filepath 
+home/saltoshi/commune/modules/agi/agi.py
+```
+
+```
+c serve agi
+or
+c agi/serve
+or
+a agi serve
+```
+
+OUTPUT
+```{
+    'success': True,
+    'name': 'agi',
+    'address': '0.0.0.0:50129',
+    'kwargs': {}
+}
+```
+```bash
+c namespace
+```
+
+OUTPUT
+
+```bash
+c agi filepath
+```
+
 ### Searching for a Specific Module
 To search for a specific module, you can use the `c.modules()` function with a search query:
+
+```bash
+c modules model.openai
+```
 
 ```python
 c.modules('model.openai')
@@ -45,7 +102,6 @@ or
 ```bash
 c.print(c.call('model.openai/info', *args, **kwargs))
 ```
-
 
 ---
 
@@ -78,6 +134,7 @@ OUTPUT
     'author': 'John Doe',
     'email': '
     'license': 'MIT',
+
 }
 ```
 
@@ -88,8 +145,7 @@ This is the yaml file if the module has a config file stored in the same directo
 To list the functions of a module, use the `fns()` method:
 
 ```python
-demo_functions = demo.fns()
-c.print(demo_functions)
+demo.fns()
 ```
 
 ### Searching for a Function
@@ -101,14 +157,22 @@ matching_functions = demo.fns(function_search_query)
 c.print(matching_functions)
 ```
 
-### Getting Function Schema
+### Function Schema
 You can retrieve the schema of a specific function using the `schema()` method:
 
 ```python
-function_name = 'bro'
-function_schema = demo.schema(function_name)
-c.print(function_schema)
+c.module('model.openai').schema()
 ```
+
+```bash
+{
+    '__init__': {'input': {'a': 'int'}, 'default': {'a': 1}, 'output': {}, 'docs': None, 'type': 'self'},
+    'call': {'input': {'b': 'int'}, 'default': {'b': 1}, 'output': {}, 'docs': None, 'type': 'self'}
+}
+```
+
 ---
 
 This concludes our tutorial on module management using the `commune` library. You've learned how to find modules, manage their functions, serve them, and interact with served modules. This library can greatly simplify the process of managing and deploying code modules in your projects.
+
+Feel free to use and adapt this markdown document for your tutorial needs. Make sure to adjust any details as necessary and include code snippets or explanations for each step to ensure clarity and comprehensiveness.

@@ -71,7 +71,7 @@ You can participate in an existing subnet as either a subnet validator or a subn
     <Card
     icon={GiArchiveRegister}
     title='2. Register, validate and mine'
-    link='mining/register'
+    link='subspace/miner'
     body='Follow these steps to register and become a miner' />
     <Card
     icon={RiTeamLine}
@@ -105,7 +105,7 @@ Use the Commune CLI and Python API to develop and participate in the Commune net
     <Card 
     icon={GoCommandPalette}
     title='Commune CLI'
-    link='cli'
+    link='module/cli'
     body='With Commune CLI, you can stake or unstake funds, check network state and much more.' />
 </Cards>
 

@@ -155,6 +155,6 @@ c.module("demo").serve(tag="latest")
 ## Why did we make this instead of using Argparse?
 Argparse is a great library, but it is not very pythonic, and it is not very easy to use. You also have to write a lot of boilerplate code to get it to work, which is not very fun. 
 
-Our New Pyparse It is a simple way to interact with the commune library. This does not need to be formated like argparse, and is more like a pythonic cli, where you can test out the functions and modules.
+Our New Pyparse It is a simple way to interact with the commune library. This does not need to be formatted like argparse, and is more like a pythonic cli, where you can test out the functions and modules.
 
 

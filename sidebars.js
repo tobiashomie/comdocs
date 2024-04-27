@@ -40,18 +40,23 @@ const sidebars = {
       collapsed: false,
       items: [
         "subspace/staking",
-        "subspace/subnets",
+        "subspace/subnets",        
+        "subspace/miner",
+        "subspace/register",
+        "subspace/validator"
       ],
     },
     {
       type: "category",
-      label: "Mining",
+      label: "Module",
       collapsible: true,
       collapsed: false,
       items: [
-        "mining/miner",
-        "mining/register",
-        "mining/validator"
+        "module/cli",
+        "module/module",
+        "module/key_management",
+        "module/serve_a_module",
+        "module/making_an_app"
       ],
     },
     {
@@ -74,20 +79,15 @@ const sidebars = {
       collapsed: false,
       items: [
         "blackpaper/module",
-        "blackpaper/namespace",
         "blackpaper/emissions",
-        "blackpaper/subnets",
         "blackpaper/validator",
         "blackpaper/staking",
         "blackpaper/profit_sharing_emissions",
         "blackpaper/tokens",
-        "blackpaper/multichain"
+        "blackpaper/multichain",
+        "blackpaper/module_filesystem"
       ],
     },
-    "cli",
-    "module",
-    "key_management",
-    "serve_a_module"
     // "reference/bittensor-api-ref",
 
   ],

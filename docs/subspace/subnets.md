@@ -137,8 +137,6 @@ The following allows an authority to make a change to the network, you dont even
 c update_subnet name=wadup tempo=10 key=authoritykey netuid=10
 ```
 
-
-
 # Updating a Subnet (Authority)
 
 As a democratic system
@@ -152,13 +150,11 @@ Then to vote for the proposal
 c vote_proposal id=10 key=myvotingkey
 ```
 
-
 To unvote a proposal
 
 ```bash
 c unvote_proposal id=10
 ```
-
 
 ## Emission Calculations
 

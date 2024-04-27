@@ -1,7 +1,6 @@
 ---
 title: "Tokens"
 ---
-
 We want anyone to make a token where the community can provide liquidity to support new ideas that benefit open source projects. These tokens can be minted if they are connected the a subnet or a module. The native token has a null address of 
 
 ```python
@@ -12,22 +11,20 @@ c.add_token(key='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w', #the key of 
             k=1 # the curve ratio on the uniswap curve
             )
 ```
+Token Params
 
-### Token Params
-```python
-{
-    'key': '5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w',
-    'token_pool': 51000,
-    'native_pool': 1000,
-    'mint_ratio': 10
-    'k': 1,
-} 
+```bash
+    {
+        'key': '5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w',
+        'token_pool': 51000,
+        'native_pool': 1000,
+        'mint_ratio': 10
+        'k': 1,
+    } 
 ```
-
 The token is now registered inside the chain's Token Storage Mapping the token's address to the balances holders.
 
-
-### Token State
+Token State
 ```python
 {
     'params': {
@@ -69,18 +66,18 @@ The minimum price ratio is the minimum price ratio before the pool is adjusted. 
 The maximum price ratio is the maximum price ratio before the pool is adjusted. This is the maximum price ratio before the pool is adjusted. If the price hits the maximum price ratio, the token pool is minted to  adjusted such that the price is brought back to the minimum price ratio.
 
 
-### Token Minting from Emissions
-
+### Token Minting from Emissions:
 If a module or subnet points towards a token address. The mint ratio will direct the tokens towards the emission provider. The stakers will also get the tokens minted in addition to the tokens from the pool. 
 
 
-### Native Pool Balance
-
+### Native Pool Balance:
 The native pool balance is the balance of the native tokens in the pool. This is the balance of the native tokens in the pool. 
 
 ```python
+
+The following 
 c.swap_tokens(from_token='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w', 
-              to_token='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w
+              to_token='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w,
               amount=1000)
 {
     'from_token_amount': 50000,
@@ -92,7 +89,7 @@ c.swap_tokens(from_token='5Fe8eMg6YGDhZUwnnmiarTyNNGACGHeoDTVXez94yGA9mz9w',
 
 If a module or subnet points towards a token address. The mint ratio will direct the tokens towards the emission provider. A module or subnet can connect with one or many tokens which can combine as meta token pools, which are adjusted bundles of token pools. However this part of the project will focus on single tokens per module and subnet.
 
-Connecting a token to a module or subnet
+### Connecting a token to a module or subnet
 
 ```python
 c.add_module_token(module='module',  # the module address
@@ -103,5 +100,4 @@ c.add_module_token(module='module',  # the module address
 This means 10 percent of the liquidity (0.1) is being directed into the pool while getting the tokens minted in addition to the tokens from the pool. This forces less volatility as it incentivizes volume.
 
 ### Connecting all of the Assets in the World : A decentralized blackrock 
-
 The following will connect all of the assets in the world to the chain. We do this by allowing for the option for minting tokens using multi-signature wallets. These signers of the multi-signature can approve the minting and burning of tokens upon collateralization of the assets. This allows for any token to be minted and burned upon the collateralization of the assets. 
