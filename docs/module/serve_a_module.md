@@ -27,7 +27,7 @@ c call model.openai::tag/forward "sup"
 "hey there homie"
 ```
 
-The name of the endpoint is formated as
+The name of the endpoint is formatted as
 
 ```bash
 {server_ip}:{server_port}/{function}
@@ -84,7 +84,7 @@ The access module is a module that is used to restrict access to other keys base
 
 2. Verify the Timestamp staleness was within the last n seconds (2 seconds)
 
-3. Verify the user identity, whether the function is callable (whitelisst or blacklisted) or if the user is an admin.
+3. Verify the user identity, whether the function is callable (whitelist or blacklisted) or if the user is an admin.
 
 ```python
 if user is admin
@@ -177,11 +177,13 @@ c.rm_admin("5DUdqShkPzzVDYGznZJQ92xP8cdp5BTt9XSrgMDMgHRArRyY")
 
 To see all users
 
+```bash
 {
     '5CfWRdKjT5cUjSnpZA7xuW3a3qsXWkisbqrCrBky3L12Wc8R': {'role': 'admin'},
     '5GZBhMZZRMWCiqgqdDGZCGo16Kg5aUQUcpuUGWwSgHn9HbRC': {'role': 'admin'},
     '5DUdqShkPzzVDYGznZJQ92xP8cdp5BTt9XSrgMDMgHRArRyY': {'role': 'admin'}
 }
+```
 
 To see the user2role mapping
 
