@@ -85,7 +85,7 @@ c stake 5GN545yeaTEuzDEoD6EXPi4qFqQCABKNnsUyJfDHFYWzfmQi 200 key=vali::whadup
 
 The default amount to be staked is your entire balance. If you don't have a balance, you'll need to unstake.
 
-If needed, you can unstake by using the following command:
+2. If needed, you can unstake by using the following command:
 
 ```bash
 c unstake 5GN545yeaTEuzDEoD6EXPi4qFqQCABKNnsUyJfDHFYWzfmQi 200 key=module
@@ -96,7 +96,7 @@ or
 c.unstake("5GN545yeaTEuzDEoD6EXPi4qFqQCABKNnsUyJfDHFYWzfmQi", 200, key="module")
 ```
 
-### Updating Your Validator
+3. Updating Your Validator
 To update your validator, use the following command:
 
 You can update your module's following parameters:

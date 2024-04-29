@@ -1,4 +1,8 @@
-to transfer a function
+---
+title: "Transfer"
+---
+
+To transfer a function
 
 ```python
 c.transfer(dest='5Gc8pi8h9Tg8XE31U8zxJU5dtzqkQJjbG7ZzjAoBjKAWXUq8', amount=1000)
