@@ -56,7 +56,8 @@ const sidebars = {
         "module/module",
         "module/key_management",
         "module/serve_a_module",
-        "module/making_an_app"
+        "module/making_an_app",
+        "module/tree"
       ],
     },
     {
