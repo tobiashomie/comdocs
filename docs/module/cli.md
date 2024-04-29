@@ -1,18 +1,18 @@
 ---
 title: "Commune CLI"
 ---
+# The PyParse CLI
 
-# The Commune CLI
+We have a pythonic cli for commune, which is a wrapper around the `c.Module` library. This is a simple way to interact with the commune library. This does not need to be formated like argparse, and is more like a pythonic cli, where you can test out the functions and modules.
 
-We have a pythonic cli for commune, which is a wrapper around the `c.Module` library. This is a simple way to interact with the commune library. This does not need to be formatted like argparse, and is more like a pythonic cli, where you can test out the functions and modules.
 
 How the cli works
 
 ```bash
 c {module_name}/{function_name} {kwargs}
 ```
-or
- 
+or 
+
 ```bash
 c {module_name} {function_name} {kwargs} {flags}
 ```
@@ -40,14 +40,17 @@ To make a new module
 ```python
 c.new_module("agi")
 ```
+```
+c new_module agi
+```
 
 This will create a new module called `agi` in the `modules` directory. 
-This will be located in 
+
 
 to get the config of the model.agi module, you can use the following command:
 
 ```bash
-c agi config
+c agi/config
 ```
 if you don't have a config or yaml file, the key word arguments will be used as the config.
 
@@ -60,7 +63,7 @@ c.module("agi").config()
 
 To get the code
 ```bash
-c agi code
+c agi/code
 ```
 
 ```python
@@ -76,27 +79,18 @@ class Agi(c.Module):
         return x + y
 ```
 
-to get the config, which is a yaml, or the key word arguments of the __init__
+to get the config, which is a yaml, or the key word arguments of the `__init__`
 ```bash
-c agi config
+c agi/config
 ```
-
-
-
-
-
-
-
-
-
 
 The template for the cli is as follows:
 ```bash
 c model.openai/forward text="sup"
 ```
 or 
-```bash
 
+```bash
 c {module_name}/
 ```
 
@@ -117,7 +111,6 @@ c modules model
 ## Using the cli to interact with your modules
 
 You can use the cli to interact with your modules. For example, if you have a module called `demo`, you can use the cli to interact with it. 
-
 For instance, to get the config of the model.openai module, you can use the following command:
 
 ```bash
@@ -130,7 +123,6 @@ This is the same as the following python code:
 import commune as c
 c.module("model.openai").config()
 ```
-
 
 ## Serving 
 
@@ -148,13 +140,8 @@ c.module("demo").serve(tag="latest")
 ```
 
 
-
-
-
-
 ## Why did we make this instead of using Argparse?
 Argparse is a great library, but it is not very pythonic, and it is not very easy to use. You also have to write a lot of boilerplate code to get it to work, which is not very fun. 
 
-Our New Pyparse It is a simple way to interact with the commune library. This does not need to be formatted like argparse, and is more like a pythonic cli, where you can test out the functions and modules.
-
+Our New Pyparse is a simple way to interact with the commune library. This does not need to be formatted like argparse, and is more like a pythonic cli, where you can test out the functions and modules.
 
